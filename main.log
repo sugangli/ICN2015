@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.5)  15 MAY 2015 14:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.5)  15 MAY 2015 14:46
 entering extended mode
 **main.tex
-(C:\Users\yyzhang\Dropbox\ICN2015-IoT\main.tex
+(C:\Users\yyzhang\Documents\GitHub\ICN2015\main.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,7 +13,7 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-(C:\Users\yyzhang\Dropbox\ICN2015-IoT\sig-alternate-10pt.cls
+(C:\Users\yyzhang\Documents\GitHub\ICN2015\sig-alternate-10pt.cls
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 
@@ -399,12 +399,12 @@ Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 45.
 Package hyperref Info: Option `colorlinks' set `true' on input line 45.
 Package hyperref Info: Option `breaklinks' set `true' on input line 45.
 
-(C:\Users\yyzhang\Dropbox\ICN2015-IoT\main.aux
-(C:\Users\yyzhang\Dropbox\ICN2015-IoT\intro.aux)
-(C:\Users\yyzhang\Dropbox\ICN2015-IoT\diagram.aux)
-(C:\Users\yyzhang\Dropbox\ICN2015-IoT\system.aux)
-(C:\Users\yyzhang\Dropbox\ICN2015-IoT\evaluation.aux)
-(C:\Users\yyzhang\Dropbox\ICN2015-IoT\conclusion.aux))
+(C:\Users\yyzhang\Documents\GitHub\ICN2015\main.aux
+(C:\Users\yyzhang\Documents\GitHub\ICN2015\intro.aux)
+(C:\Users\yyzhang\Documents\GitHub\ICN2015\diagram.aux)
+(C:\Users\yyzhang\Documents\GitHub\ICN2015\system.aux)
+(C:\Users\yyzhang\Documents\GitHub\ICN2015\evaluation.aux)
+(C:\Users\yyzhang\Documents\GitHub\ICN2015\conclusion.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
 LaTeX Font Info:    ... okay on input line 47.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
@@ -457,8 +457,8 @@ LaTeX Info: Redefining \ref on input line 47.
 LaTeX Info: Redefining \pageref on input line 47.
 LaTeX Info: Redefining \nameref on input line 47.
 
-(C:\Users\yyzhang\Dropbox\ICN2015-IoT\main.out)
-(C:\Users\yyzhang\Dropbox\ICN2015-IoT\main.out)
+(C:\Users\yyzhang\Documents\GitHub\ICN2015\main.out)
+(C:\Users\yyzhang\Documents\GitHub\ICN2015\main.out)
 \@outlinefile=\write5
 LaTeX Font Info:    Try loading font information for U+msa on input line 60.
 
@@ -479,22 +479,22 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 
 
 ]
-(C:\Users\yyzhang\Dropbox\ICN2015-IoT\intro.tex
+(C:\Users\yyzhang\Documents\GitHub\ICN2015\intro.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 10.
 
 
-LaTeX Warning: Reference `' on page 2 undefined on input line 9.
+LaTeX Warning: Reference `' on page 2 undefined on input line 10.
 
 
-LaTeX Warning: Citation `vu2012dmap' on page 2 undefined on input line 11.
+LaTeX Warning: Citation `vu2012dmap' on page 2 undefined on input line 12.
 
 
-LaTeX Warning: Citation `nelson2011gstar' on page 2 undefined on input line 13.
+LaTeX Warning: Citation `nelson2011gstar' on page 2 undefined on input line 14.
 
 
 
-Overfull \hbox (9.99785pt too wide) in paragraph at lines 15--16
+Overfull \hbox (9.99785pt too wide) in paragraph at lines 16--17
 \OT1/ptm/m/n/10 router pro-vides the ca-pa-bil-ity of caching the data packe. H
 ence,
  []
@@ -502,12 +502,12 @@ ence,
 ) [2
 
 
-] (C:\Users\yyzhang\Dropbox\ICN2015-IoT\diagram.tex) [3
+] (C:\Users\yyzhang\Documents\GitHub\ICN2015\diagram.tex) [3
 
 
 
 ]
-(C:\Users\yyzhang\Dropbox\ICN2015-IoT\system.tex
+(C:\Users\yyzhang\Documents\GitHub\ICN2015\system.tex
 Overfull \hbox (2.16826pt too wide) in paragraph at lines 2--3
 \OT1/ptm/m/n/10 formed by three dis-tributed phys-i-cal com-po-nents. They cove
 r
@@ -530,32 +530,13 @@ Overfull \hbox (4.52748pt too wide) in paragraph at lines 17--19
 LaTeX Warning: Reference `•' on page 4 undefined on input line 22.
 
 
-LaTeX Warning: Reference `***peerflow***' on page 4 undefined on input line 31.
+LaTeX Warning: Reference `***peerflow***' on page 4 undefined on input line 32.
 
 
 
-Overfull \hbox (2.3569pt too wide) in paragraph at lines 35--36
+Overfull \hbox (2.3569pt too wide) in paragraph at lines 36--37
 \OT1/ptm/b/n/10 Master-slave Mode\OT1/ptm/m/n/10 :In some IoT ap-pli-ca-tions, 
 there are more
- []
-
-
-LaTeX Warning: Reference `•' on page 4 undefined on input line 37.
-
-
-LaTeX Warning: Reference `•' on page 4 undefined on input line 37.
-
-
-Overfull \hbox (9.39227pt too wide) in paragraph at lines 37--38
-\OT1/ptm/m/n/10 be named as $\OML/cmm/m/it/10 =office=ac=\OT1/cmr/m/n/10 1$\OT1
-/ptm/m/n/10 , $\OML/cmm/m/it/10 =office=ac=\OT1/cmr/m/n/10 2$ \OT1/ptm/m/n/10 a
-nd $\OML/cmm/m/it/10 =office=ac=\OT1/cmr/m/n/10 3$
- []
-
-
-Overfull \hbox (26.35pt too wide) in paragraph at lines 37--38
-\OT1/ptm/m/n/10 . The ther-mo-stat ex-presses a par-tial name $\OML/cmm/m/it/10
- =office=ac=certificate$
  []
 
 [4
@@ -563,57 +544,76 @@ Overfull \hbox (26.35pt too wide) in paragraph at lines 37--38
 
 ]
 
-LaTeX Warning: Citation `**copss paper**' on page 5 undefined on input line 47.
+LaTeX Warning: Reference `•' on page 5 undefined on input line 38.
+
+
+LaTeX Warning: Reference `•' on page 5 undefined on input line 38.
+
+
+Overfull \hbox (9.39227pt too wide) in paragraph at lines 38--39
+\OT1/ptm/m/n/10 be named as $\OML/cmm/m/it/10 =office=ac=\OT1/cmr/m/n/10 1$\OT1
+/ptm/m/n/10 , $\OML/cmm/m/it/10 =office=ac=\OT1/cmr/m/n/10 2$ \OT1/ptm/m/n/10 a
+nd $\OML/cmm/m/it/10 =office=ac=\OT1/cmr/m/n/10 3$
+ []
+
+
+Overfull \hbox (26.35pt too wide) in paragraph at lines 38--39
+\OT1/ptm/m/n/10 . The ther-mo-stat ex-presses a par-tial name $\OML/cmm/m/it/10
+ =office=ac=certificate$
+ []
+
+
+LaTeX Warning: Citation `**copss paper**' on page 5 undefined on input line 48.
 
 
 
 LaTeX Warning: Citation `**Multi-source paper**' on page 5 undefined on input l
-ine 50.
+ine 51.
 
 
 LaTeX Warning: Reference `NDN grouping example' on page 5 undefined on input li
-ne 51.
+ne 52.
 
 
 LaTeX Warning: Reference `MF grouping example' on page 5 undefined on input lin
-e 51.
+e 52.
 
 )
-Overfull \hbox (37.34598pt too wide) in paragraph at lines 49--62
+Overfull \hbox (37.34598pt too wide) in paragraph at lines 50--62
 \OML/cmm/m/it/10 =home=monitoring=temperature$ \OT1/ptm/m/n/10 and $\OML/cmm/m/
 it/10 =home=monitoring=light$\OT1/ptm/m/n/10 .
  []
 
 
-Overfull \hbox (6.1135pt too wide) in paragraph at lines 49--62
+Overfull \hbox (6.1135pt too wide) in paragraph at lines 50--62
 \OT1/ptm/m/n/10 fies the "home tem-per-a-ture mon-i-tor-ing" ser-vice with $\OM
 L/cmm/m/it/10 GUID \OMS/cmsy/m/n/10  
  []
 
-[5] (C:\Users\yyzhang\Dropbox\ICN2015-IoT\evaluation.tex) [6
+[5] (C:\Users\yyzhang\Documents\GitHub\ICN2015\evaluation.tex) [6
 
 
 
 ]
-(C:\Users\yyzhang\Dropbox\ICN2015-IoT\conclusion.tex) [7
+(C:\Users\yyzhang\Documents\GitHub\ICN2015\conclusion.tex) [7
 
 
 
 ]
-(C:\Users\yyzhang\Dropbox\ICN2015-IoT\main.bbl)
+(C:\Users\yyzhang\Documents\GitHub\ICN2015\main.bbl)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 71.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 71.
 
-(C:\Users\yyzhang\Dropbox\ICN2015-IoT\main.aux
-(C:\Users\yyzhang\Dropbox\ICN2015-IoT\intro.aux)
-(C:\Users\yyzhang\Dropbox\ICN2015-IoT\diagram.aux)
-(C:\Users\yyzhang\Dropbox\ICN2015-IoT\system.aux)
-(C:\Users\yyzhang\Dropbox\ICN2015-IoT\evaluation.aux)
-(C:\Users\yyzhang\Dropbox\ICN2015-IoT\conclusion.aux))
+(C:\Users\yyzhang\Documents\GitHub\ICN2015\main.aux
+(C:\Users\yyzhang\Documents\GitHub\ICN2015\intro.aux)
+(C:\Users\yyzhang\Documents\GitHub\ICN2015\diagram.aux)
+(C:\Users\yyzhang\Documents\GitHub\ICN2015\system.aux)
+(C:\Users\yyzhang\Documents\GitHub\ICN2015\evaluation.aux)
+(C:\Users\yyzhang\Documents\GitHub\ICN2015\conclusion.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 71.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 71.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 67C3EC451A4D1C008F8358450B8A1418;923.
+(rerunfilecheck)             Checksum: 242531D81818D5F4D18458872A51F41A;942.
 
 
 LaTeX Warning: There were undefined references.
@@ -622,8 +622,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 71.
  ) 
 Here is how much of TeX's memory you used:
  6664 strings out of 493921
- 97677 string characters out of 3144871
- 185915 words of memory out of 3000000
+ 97902 string characters out of 3144871
+ 184915 words of memory out of 3000000
  9773 multiletter control sequences out of 15000+200000
  42890 words of font info for 52 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -637,7 +637,7 @@ iKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.
 9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on main.pdf (7 pages, 112946 bytes).
+Output written on main.pdf (7 pages, 113072 bytes).
 PDF statistics:
  132 PDF objects out of 1000 (max. 8388607)
  23 named destinations out of 1000 (max. 500000)

@@ -3,16 +3,16 @@ hello
 \end{abstract}
 
 \section{Introduction}
-requirement in the draft, 
+requirement in the draft,
 \subsection{ICN IoT Middleware}
 \subsection{NDN Background}
 \subsection{MobilityFirst Background}
 MF utilizes GUID to name every network object, while separating this GUID from its actual network address. This identifier(GUID)/locator(NA) split design allows MF supporting dynamic address binding, multiple addressing binding and late binding. Shown as Figure ~\ref{}, MF core network architecture includes the following network component.
 
-\vspace{1mm}\nonindent{\bf Global Name Resolution Service(GNRS)}: GNRS is a centralized service that maintains mappings between GUID and network address. MF routers create the entries by performing an Insert for the GUIDs of attached network devices and the associated network address, and query GNRS for a translation from GUID to latest binding network address. Recent works shows that this translation performance is much(50-100 ms) than DNS resolution~\cite{vu2012dmap}.
+\vspace{1mm}\noindent{\bf Global Name Resolution Service(GNRS)}: GNRS is a centralized service that maintains mappings between GUID and network address. MF routers create the entries by performing an Insert for the GUIDs of attached network devices and the associated network address, and query GNRS for a translation from GUID to latest binding network address. Recent works shows that this translation performance is much(50-100 ms) than DNS resolution~\cite{vu2012dmap}.
 
-\vspace{1mm}\nonindent{\bf Hybrid GUID/NA address routing}: Each of the router in MF can make routing decision based on NA or GUID in the header of data packet, since routing decision are made on a hop-by-hop manor~\cite{nelson2011gstar}.
+\vspace{1mm}\noindent{\bf Hybrid GUID/NA address routing}: Each of the router in MF can make routing decision based on NA or GUID in the header of data packet, since routing decision are made on a hop-by-hop manor~\cite{nelson2011gstar}.
 
-\vspace{1mm}\nonindent{\bf Delay-Tolerant Network(DTN)}: The storage in each MF router provides the capability of caching the data packe. Hence, data can be hold or forwarded based on different routing decision.
+\vspace{1mm}\noindent{\bf Delay-Tolerant Network(DTN)}: The storage in each MF router provides the capability of caching the data packe. Hence, data can be hold or forwarded based on different routing decision.
 \subsection{MF Multicast}
 MF multicast is based on the idea of group GUID that groups multiple network object into one entity. Group GUID  to object GUID mapping is a one-to-many mapping that being maintained at GNRS server. Network object can claim to join the multicast group, and either edge router or a centralized management service will perform insertion of the object GUID to group GUID mapping to into GNRS server. When router queries GNRS server for a group GUID for the mapping, 
