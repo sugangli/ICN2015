@@ -1,4 +1,4 @@
-\section{System Design}
+\section{ICN IoT Middleware System Design}
 In this section, we will propose a overall system design formed by three distributed physical components. They cover four principle functionality to develop IoT middleware over ICN network. In legacy IP-based IoT platform, these functionality are almost implemented on a centralized server, or over-lay application.
 \subsection{Physical Components}
 \begin{itemize}
@@ -25,6 +25,7 @@ express a neighbor discovery message via a broadcast channel to build connection
 
 
 \subsection{IoT Service Discovery}
+
 IoT service expose resource funtionality hosted on devices that provide some forms of physical access to the entity cite{***IoT service paper**}. In general, the IoT service can be separated into three classes, which are sensing service, actuating service and control service. In current IoT platform, they are connected via a server or require more development effort such as maintaining a local name to IP mapping to be interconnected. With ICN architecture support, IoT service discovery and configuration become less complex and more efficient. Depending on sthe application scenario, there are two mode: $peer-to-peer\ mode$ and $master-slave\ mode$.
 
 
