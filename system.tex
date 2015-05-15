@@ -9,17 +9,14 @@ Aggregator is the base-line component in our middlware architecture that interco
 \end{itemize}
 
 \subsection{Device Discovery}
+The objective of device discovery is to ***. 
 Device discovery is a key component of any IoT system, which can be considerably simplified by the ICN network. In today's sensor networks and IoT systems, the device discovery module mainly focuses on the reach-ability of a device, instead of device type and service type~\cite{***}. This method becomes inconvenient when a large number of sensors are deployed in the field and the developer needs to configure each device manually. Furthermore, a translation service is required to maintain the mapping from network addresses to names. In contrast, ICN uses names to discover new devices, without involving manual configuration or name translation. Below, we explain the ICN-IoT device discovery process in detail, including both devices that are able to run  full-stack protocols (referred to as \emph{resource-rich sensors}) and devices that are unable to do so (referred to as \emph{resource-constrained sensors}).
 
 \vspace{1mm}\noindent{\bf Resource-rich sensors}: Many a resource-rich sensor comes with manufacture secure ID and model name, which need to be exposed to the aggregator and LSG to facilitate device discovery. This objective is achieved in different ways by NDN and MF.  In NDN, this process is initiated by the configuration service running on LSG, which periodically broadcasts discovery Interests (using the name $/iot/model$). The new sensor replies to the discovery interest with its information, and the configuration service then registers the sensor and generates a local ICN name for the sensor. In MF, we can set the model number, $group-GUID$, as the destination address. ***YZ: next? ***On receiving of the request, the new device replies with the manufacture secure ID, and the configuration service register and generates a local ICN name for the new device.
 
 
-\vspace{1mm}\noindent{\bf Constraint device}:
-In some resource-constraint environment,  the embedded devices with IEEE 802.15.4 technology connect the outside world via a Aggregator that acts as a border router~\cite{*cite Zigbee ipj*}. These devices is inevitable to form a adaptive and self-organized mesh network. Each node  in such network performs two task: discovering the neighbors and establish forwarding path to the Aggregator.
-
-
-When a new NDN embedded device joins a sensor network, it
-express a neighbor discovery message via a broadcast channel to build connection with all available neighbors. With the connectivity information to neighbors, the new device uses Interest named $/ndn/aggregatorservice$ to discover the Aggregotor.In MF, neighbor discovery is naturally supported, hence new device sends discovery request to a well-known broadcast GUID to discover the Aggregator. On receiving, the target Aggregator receives the request and registers the new device if there is matched service name. The message flow is shown as Figure ~\ref{•}
+\vspace{1mm}\noindent{\bf Resource-constrained sensors}: Many resource-constrained sensors connect to the Internet using the IEEE 802.15.4 technology via an aggregator that acts as a border router~\cite{*cite Zigbee ipj*}. These sensors voluntarily discover each other and establish forwarding paths to the aggregator, self-organizing into a mesh network. Neighbor discovery is achieved differently in NDN and MF. In NDN, when a new sensor arrives, it broadcasts a neighbor discovery message to connect with neighbors. After establishing connectivity with neighboring sensors, it broadcasts an Interest named $/ndn/aggregatorservice$ to discover the Aggregator. In MF, neighbor discovery is naturally supported, and the new sensor simply needs to send a discovery request to a well-known broadcast GUID to discover the Aggregator. %On receiving, the target Aggregator receives the request and registers the new device if there is matched service name. 
+The above process is shown as Figure~\ref{***}.
 
 
 
