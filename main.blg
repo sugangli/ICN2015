@@ -2,15 +2,15 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 A level-1 auxiliary file: intro.aux
 A level-1 auxiliary file: diagram.aux
 A level-1 auxiliary file: system.aux
-White space in argument---line 3 of file system.aux
+White space in argument---line 4 of file system.aux
  : \citation{*cite
  :                 Zigbee ipj*}
 I'm skipping whatever remains of this command
-White space in argument---line 8 of file system.aux
+White space in argument---line 9 of file system.aux
  : \citation{**copss
  :                   paper**}
 I'm skipping whatever remains of this command
-White space in argument---line 9 of file system.aux
+White space in argument---line 10 of file system.aux
  : \citation{**Multi-source
  :                          paper**}
 I'm skipping whatever remains of this command
@@ -21,6 +21,5 @@ I couldn't open style file sig-alternate-10pt.bst
  : \bibstyle{sig-alternate-10pt
  :                             }
 I'm skipping whatever remains of this command
-I found no cite keys---while reading file main.aux
 I found no style file---while reading file main.aux
-(There were 6 error messages)
+(There were 5 error messages)

@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.5)  15 MAY 2015 14:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.30)  17 MAY 2015 13:53
 entering extended mode
 **main.tex
-(C:\Users\yyzhang\Documents\GitHub\ICN2015\main.tex
+(E:\GitHub\ICN2015\main.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,7 +13,7 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-(C:\Users\yyzhang\Documents\GitHub\ICN2015\sig-alternate-10pt.cls
+(E:\GitHub\ICN2015\sig-alternate-10pt.cls
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 
@@ -399,12 +399,9 @@ Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 45.
 Package hyperref Info: Option `colorlinks' set `true' on input line 45.
 Package hyperref Info: Option `breaklinks' set `true' on input line 45.
 
-(C:\Users\yyzhang\Documents\GitHub\ICN2015\main.aux
-(C:\Users\yyzhang\Documents\GitHub\ICN2015\intro.aux)
-(C:\Users\yyzhang\Documents\GitHub\ICN2015\diagram.aux)
-(C:\Users\yyzhang\Documents\GitHub\ICN2015\system.aux)
-(C:\Users\yyzhang\Documents\GitHub\ICN2015\evaluation.aux)
-(C:\Users\yyzhang\Documents\GitHub\ICN2015\conclusion.aux))
+(E:\GitHub\ICN2015\main.aux (E:\GitHub\ICN2015\intro.aux)
+(E:\GitHub\ICN2015\diagram.aux) (E:\GitHub\ICN2015\system.aux)
+(E:\GitHub\ICN2015\evaluation.aux) (E:\GitHub\ICN2015\conclusion.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
 LaTeX Font Info:    ... okay on input line 47.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
@@ -457,8 +454,7 @@ LaTeX Info: Redefining \ref on input line 47.
 LaTeX Info: Redefining \pageref on input line 47.
 LaTeX Info: Redefining \nameref on input line 47.
 
-(C:\Users\yyzhang\Documents\GitHub\ICN2015\main.out)
-(C:\Users\yyzhang\Documents\GitHub\ICN2015\main.out)
+(E:\GitHub\ICN2015\main.out) (E:\GitHub\ICN2015\main.out)
 \@outlinefile=\write5
 LaTeX Font Info:    Try loading font information for U+msa on input line 60.
 
@@ -478,8 +474,7 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 
 
 
-]
-(C:\Users\yyzhang\Documents\GitHub\ICN2015\intro.tex
+] (E:\GitHub\ICN2015\intro.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 10.
 
@@ -502,12 +497,11 @@ ence,
 ) [2
 
 
-] (C:\Users\yyzhang\Documents\GitHub\ICN2015\diagram.tex) [3
+] (E:\GitHub\ICN2015\diagram.tex) [3
 
 
 
-]
-(C:\Users\yyzhang\Documents\GitHub\ICN2015\system.tex
+] (E:\GitHub\ICN2015\system.tex
 Overfull \hbox (2.16826pt too wide) in paragraph at lines 2--3
 \OT1/ptm/m/n/10 formed by three dis-tributed phys-i-cal com-po-nents. They cove
 r
@@ -580,36 +574,32 @@ e 52.
 
 )
 Overfull \hbox (37.34598pt too wide) in paragraph at lines 50--62
-\OML/cmm/m/it/10 =home=monitoring=temperature$ \OT1/ptm/m/n/10 and $\OML/cmm/m/
-it/10 =home=monitoring=light$\OT1/ptm/m/n/10 .
+$\OML/cmm/m/it/10 =home=monitoring=temperature$ \OT1/ptm/m/n/10 and $\OML/cmm/m
+/it/10 =home=monitoring=light$\OT1/ptm/m/n/10 .
  []
 
 
 Overfull \hbox (6.1135pt too wide) in paragraph at lines 50--62
 \OT1/ptm/m/n/10 fies the "home tem-per-a-ture mon-i-tor-ing" ser-vice with $\OM
-L/cmm/m/it/10 GUID \OMS/cmsy/m/n/10  
+L/cmm/m/it/10 GUID \OMS/cmsy/m/n/10  $
  []
 
-[5] (C:\Users\yyzhang\Documents\GitHub\ICN2015\evaluation.tex) [6
+[5] (E:\GitHub\ICN2015\evaluation.tex) [6
 
 
 
-]
-(C:\Users\yyzhang\Documents\GitHub\ICN2015\conclusion.tex) [7
+] (E:\GitHub\ICN2015\conclusion.tex)
+[7
 
 
 
-]
-(C:\Users\yyzhang\Documents\GitHub\ICN2015\main.bbl)
+] (E:\GitHub\ICN2015\main.bbl)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 71.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 71.
-
-(C:\Users\yyzhang\Documents\GitHub\ICN2015\main.aux
-(C:\Users\yyzhang\Documents\GitHub\ICN2015\intro.aux)
-(C:\Users\yyzhang\Documents\GitHub\ICN2015\diagram.aux)
-(C:\Users\yyzhang\Documents\GitHub\ICN2015\system.aux)
-(C:\Users\yyzhang\Documents\GitHub\ICN2015\evaluation.aux)
-(C:\Users\yyzhang\Documents\GitHub\ICN2015\conclusion.aux))
+ (E:\GitHub\ICN2015\main.aux
+(E:\GitHub\ICN2015\intro.aux) (E:\GitHub\ICN2015\diagram.aux)
+(E:\GitHub\ICN2015\system.aux) (E:\GitHub\ICN2015\evaluation.aux)
+(E:\GitHub\ICN2015\conclusion.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 71.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 71.
 Package rerunfilecheck Info: File `main.out' has not changed.
@@ -622,8 +612,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 71.
  ) 
 Here is how much of TeX's memory you used:
  6664 strings out of 493921
- 97902 string characters out of 3144871
- 184915 words of memory out of 3000000
+ 96822 string characters out of 3144873
+ 185915 words of memory out of 3000000
  9773 multiletter control sequences out of 15000+200000
  42890 words of font info for 52 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -637,7 +627,7 @@ iKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.
 9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on main.pdf (7 pages, 113072 bytes).
+Output written on main.pdf (7 pages, 113233 bytes).
 PDF statistics:
  132 PDF objects out of 1000 (max. 8388607)
  23 named destinations out of 1000 (max. 500000)
