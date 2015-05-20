@@ -11,4 +11,6 @@
 \BOOKMARK [2][-]{subsection.3.4}{3.4 Device/Application Naming Service}{section.3}% 11
 \BOOKMARK [2][-]{subsection.3.5}{3.5 Publish/Subscribe Management}{section.3}% 12
 \BOOKMARK [1][-]{section.4}{4 Evaluation}{}% 13
-\BOOKMARK [1][-]{section.5}{5 Conclusion}{}% 14
+\BOOKMARK [2][-]{subsection.4.1}{4.1 Service Discovery}{section.4}% 14
+\BOOKMARK [2][-]{subsection.4.2}{4.2 Multi-source Retrieval}{section.4}% 15
+\BOOKMARK [1][-]{section.5}{5 Conclusion}{}% 16
