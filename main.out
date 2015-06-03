@@ -1,16 +1,16 @@
-\BOOKMARK [1][-]{section.1}{1 Introduction}{}% 1
-\BOOKMARK [2][-]{subsection.1.1}{1.1 ICN IoT Middleware}{section.1}% 2
-\BOOKMARK [2][-]{subsection.1.2}{1.2 NDN Background}{section.1}% 3
-\BOOKMARK [2][-]{subsection.1.3}{1.3 MobilityFirst Background}{section.1}% 4
-\BOOKMARK [2][-]{subsection.1.4}{1.4 MF Multicast}{section.1}% 5
-\BOOKMARK [1][-]{section.2}{2 Related Work}{}% 6
-\BOOKMARK [1][-]{section.3}{3 ICN IoT Middleware System Design}{}% 7
-\BOOKMARK [2][-]{subsection.3.1}{3.1 Physical Components}{section.3}% 8
-\BOOKMARK [2][-]{subsection.3.2}{3.2 Device Discovery}{section.3}% 9
-\BOOKMARK [2][-]{subsection.3.3}{3.3 IoT Service Discovery}{section.3}% 10
-\BOOKMARK [2][-]{subsection.3.4}{3.4 Device/Application Naming Service}{section.3}% 11
-\BOOKMARK [2][-]{subsection.3.5}{3.5 Publish/Subscribe Management}{section.3}% 12
-\BOOKMARK [1][-]{section.4}{4 Evaluation}{}% 13
-\BOOKMARK [2][-]{subsection.4.1}{4.1 Service Discovery}{section.4}% 14
-\BOOKMARK [2][-]{subsection.4.2}{4.2 Multi-source Retrieval}{section.4}% 15
-\BOOKMARK [1][-]{section.5}{5 Conclusion}{}% 16
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{ICN IoT Middleware}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{NDN Background}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{MobilityFirst Background}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{MF Multicast}{section.1}% 5
+\BOOKMARK [1][-]{section.2}{Related Work}{}% 6
+\BOOKMARK [1][-]{section.3}{ICN IoT Middleware System Design}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{Physical Components}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{Device Discovery}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.3}{IoT Service Discovery}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.4}{Device/Application Naming Service}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.5}{Publish/Subscribe Management}{section.3}% 12
+\BOOKMARK [1][-]{section.4}{Evaluation}{}% 13
+\BOOKMARK [2][-]{subsection.4.1}{Service Discovery}{section.4}% 14
+\BOOKMARK [2][-]{subsection.4.2}{Multi-source Retrieval}{section.4}% 15
+\BOOKMARK [1][-]{section.5}{Conclusion}{}% 16

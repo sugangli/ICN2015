@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.30)  19 MAY 2015 22:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.30)  19 MAY 2015 22:44
 entering extended mode
 **main.tex
 (E:\GitHub\ICN2015\main.tex
@@ -121,7 +121,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-Document Class 'sig-alternate' <3rd January '07>. Hacked by Anja Feldmann
+Document Class 'sig-alternate' <22nd. April '09>. Modified by G.K.M. Tobin/Gerr
+y Murray
 Based in part upon document Style `acmconf' <22 May 89>. Hacked 4/91 by
 shivers@cs.cmu.edu, 4/93 by theobald@cs.mcgill.ca
 Excerpts were taken from (Journal Style) 'esub2acm.cls'.
@@ -152,7 +153,7 @@ Questions on the style, SIGS policies, etc. to Adrienne Griscti griscti@acm.org
 LaTeX Warning: You have requested document class `sig-alternate-10pt',
                but the document class provides `sig-alternate'.
 
-Document Class: sig-alternate 2007/03/01 - V1.9 - based on acmproc.cls V1.3 <No
+Document Class: sig-alternate 2009/04/22 - V2.4 - based on acmproc.cls V1.3 <No
 v. 30 '99>
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latexsym.sty"
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
@@ -177,17 +178,26 @@ LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 \c@paragraph=\count107
 
 Using 'Abbrev' bibliography style
+LaTeX Info: Redefining \cite on input line 1223.
 \bibindent=\dimen122
 \colcntr=\count108
-\savebox=\box29
+\saveb@x=\box29
 \copyrtyr=\toks31
 \acmcopyr=\toks32
 \boilerplate=\toks33
 \copyrightetc=\toks34
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\preprint\balance.sty"
-Package: balance 1999/02/23 4.3 (PWD)
-\oldvsize=\dimen123
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 )
+LaTeX Font Info:    Try loading font information for T1+aer on input line 100.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ae\t1aer.fd"
+File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
+)))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\comment\comment.sty"
 \CommentStream=\write3
 
@@ -199,9 +209,9 @@ Package: times 2005/04/12 PSNFSS-v9.2a (SPQR)
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip44
 \subfigcapskip=\skip45
-\subfigcaptopadj=\dimen124
+\subfigcaptopadj=\dimen123
 \subfigbottomskip=\skip46
-\subfigcapmargin=\dimen125
+\subfigcapmargin=\dimen124
 \subfiglabelskip=\skip47
 \c@subfigure=\count109
 \c@lofdepth=\count110
@@ -217,7 +227,7 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\endnotes\endnotes.sty"
 \c@endnote=\count113
-\endnotesep=\dimen126
+\endnotesep=\dimen125
 \@enotes=\write4
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
@@ -241,7 +251,7 @@ Package: paralist 2013/06/09 v2.4 Extended list environments
 \pl@lab=\toks35
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
-\bigstrutjot=\dimen127
+\bigstrutjot=\dimen126
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
@@ -342,7 +352,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen128
+\@linkdim=\dimen127
 \Hy@linkcounter=\count115
 \Hy@pagecounter=\count116
 
@@ -363,10 +373,10 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count118
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen129
+\XeTeXLinkMargin=\dimen128
 \Fld@menulength=\count119
-\Field@Width=\dimen130
-\Fld@charsize=\dimen131
+\Field@Width=\dimen129
+\Fld@charsize=\dimen130
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -395,42 +405,38 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip54
 )
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 21.
-Package hyperref Info: Option `colorlinks' set `true' on input line 21.
-Package hyperref Info: Option `breaklinks' set `true' on input line 21.
-
 (E:\GitHub\ICN2015\main.aux (E:\GitHub\ICN2015\intro.aux)
 (E:\GitHub\ICN2015\diagram.aux) (E:\GitHub\ICN2015\system.aux)
 (E:\GitHub\ICN2015\evaluation.aux) (E:\GitHub\ICN2015\conclusion.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 22.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count125
-\scratchdimen=\dimen132
+\scratchdimen=\dimen131
 \scratchbox=\box32
 \nofMPsegments=\count126
 \nofMParguments=\count127
 \everyMPshowfont=\toks38
 \MPscratchCnt=\count128
-\MPscratchDim=\dimen133
+\MPscratchDim=\dimen132
 \MPnumerator=\count129
 \makeMPintoPDFobject=\count130
 \everyMPtoPDFconversion=\toks39
@@ -441,7 +447,7 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 Package hyperref Warning: Height of page (\paperheight) is invalid (0.0pt),
 (hyperref)                using 11in.
 
-Package hyperref Info: Link coloring ON on input line 23.
+Package hyperref Info: Link coloring OFF on input line 22.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -450,23 +456,23 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count131
 )
-LaTeX Info: Redefining \ref on input line 23.
-LaTeX Info: Redefining \pageref on input line 23.
-LaTeX Info: Redefining \nameref on input line 23.
+LaTeX Info: Redefining \ref on input line 22.
+LaTeX Info: Redefining \pageref on input line 22.
+LaTeX Info: Redefining \nameref on input line 22.
 
 (E:\GitHub\ICN2015\main.out) (E:\GitHub\ICN2015\main.out)
 \@outlinefile=\write5
-LaTeX Font Info:    Try loading font information for U+msa on input line 35.
+LaTeX Font Info:    Try loading font information for U+msa on input line 34.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 35.
+LaTeX Font Info:    Try loading font information for U+msb on input line 34.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 35.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 34.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
@@ -475,19 +481,22 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 
 
 ] (E:\GitHub\ICN2015\intro.tex
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 8.
 
 
 LaTeX Warning: Citation `ciscovisual' on page 2 undefined on input line 8.
 
 
 Overfull \hbox (13.63774pt too wide) in paragraph at lines 8--9
-\OT1/ptm/m/n/10 unique chal-lenge on the un-der-ly-ing net-work and sys-tems.Fi
-rstly,
+\T1/ptm/m/n/10 unique chal-lenge on the un-der-ly-ing net-work and sys-tems.Fir
+stly,
  []
 
-<figure/middleware_architecture.png, id=77, 722.7pt x 542.025pt>
+
+LaTeX Warning: Reference `sec:system' on page 2 undefined on input line 10.
+
+<figure/middleware_architecture.png, id=76, 722.7pt x 542.025pt>
 File: figure/middleware_architecture.png Graphic file (type png)
 
 <use figure/middleware_architecture.png>
@@ -518,7 +527,7 @@ Package epstopdf Info: Source file: <figure/mf_arch.eps>
 d-to.pdf figure/mf_arch.eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
-<figure/mf_arch-eps-converted-to.pdf, id=87, 693.59125pt x 410.53375pt>
+<figure/mf_arch-eps-converted-to.pdf, id=86, 693.59125pt x 410.53375pt>
 File: figure/mf_arch-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figure/mf_arch-eps-converted-to.pdf>
@@ -527,19 +536,19 @@ Package pdftex.def Info: figure/mf_arch-eps-converted-to.pdf used on input line
 (pdftex.def)             Requested size: 240.0pt x 142.054pt.
 
 Overfull \hbox (9.99785pt too wide) in paragraph at lines 26--32
-\OT1/ptm/m/n/10 router pro-vides the ca-pa-bil-ity of caching the data packe. H
-ence,
+\T1/ptm/m/n/10 router pro-vides the ca-pa-bil-ity of caching the data packe. He
+nce,
  []
 
-<figure/multicast.png, id=89, 722.7pt x 542.025pt>
+<figure/multicast.png, id=88, 722.7pt x 542.025pt>
 File: figure/multicast.png Graphic file (type png)
  <use figure/multicast.png>
 Package pdftex.def Info: figure/multicast.png used on input line 36.
 (pdftex.def)             Requested size: 240.0pt x 180.00188pt.
 )
-Overfull \hbox (4.53781pt too wide) in paragraph at lines 33--35
-\OT1/ptm/m/n/10 gath-ers mul-ti-ple net-work ob-jects into one en-tity. Group G
-UID
+Overfull \hbox (4.53781pt too wide) in paragraph at lines 33--34
+\T1/ptm/m/n/10 gath-ers mul-ti-ple net-work ob-jects into one en-tity. Group GU
+ID
  []
 
 [3 <E:/GitHub/ICN2015/figure/mf_arch-eps-converted-to.pdf> <E:/GitHub/ICN2015/f
@@ -549,50 +558,50 @@ igure/multicast.png>] (E:\GitHub\ICN2015\diagram.tex) [4
 
 ]
 (E:\GitHub\ICN2015\system.tex
-Overfull \hbox (2.16826pt too wide) in paragraph at lines 3--4
-\OT1/ptm/m/n/10 formed by three dis-tributed phys-i-cal com-po-nents. They cove
-r
+Overfull \hbox (2.16826pt too wide) in paragraph at lines 2--3
+\T1/ptm/m/n/10 formed by three dis-tributed phys-i-cal com-po-nents. They cover
+
  []
 
 
-LaTeX Warning: Citation `***' on page 5 undefined on input line 14.
+LaTeX Warning: Citation `***' on page 5 undefined on input line 13.
 
 
 LaTeX Warning: Citation `*cite Zigbee ipj*' on page 5 undefined on input line 1
-9.
+8.
 
 
-LaTeX Warning: Reference `***' on page 5 undefined on input line 20.
+LaTeX Warning: Reference `***' on page 5 undefined on input line 19.
 
 
-Overfull \hbox (11.61652pt too wide) in paragraph at lines 19--21
-\OT1/ptm/m/n/10 sors, it broad-casts an In-ter-est named $\OML/cmm/m/it/10 =ndn
-=aggregatorservice$
+Overfull \hbox (11.61652pt too wide) in paragraph at lines 18--20
+\T1/ptm/m/n/10 sors, it broad-casts an In-ter-est named $\OML/cmm/m/it/10 =ndn=
+aggregatorservice$
  []
 
 
-Overfull \hbox (4.41673pt too wide) in paragraph at lines 27--28
-[]\OT1/ptm/m/n/10 IoT ser-vices can be gen-er-ally cat-e-go-rized into three cl
-asses:
+Overfull \hbox (4.41673pt too wide) in paragraph at lines 26--27
+[]\T1/ptm/m/n/10 IoT ser-vices can be gen-er-ally cat-e-go-rized into three cla
+sses:
  []
 
 
-LaTeX Warning: Reference `***' on page 5 undefined on input line 30.
+LaTeX Warning: Reference `***' on page 5 undefined on input line 29.
 
 
-LaTeX Warning: Reference `***peerflow***' on page 5 undefined on input line 30.
+LaTeX Warning: Reference `***peerflow***' on page 5 undefined on input line 29.
 
 
 
-Overfull \hbox (15.69698pt too wide) in paragraph at lines 30--31
-\OT1/ptm/m/n/10 the well-known name $\OML/cmm/m/it/10 =area=servicename=certifi
-cate$\OT1/ptm/m/n/10 , which
+Overfull \hbox (15.69698pt too wide) in paragraph at lines 29--30
+\T1/ptm/m/n/10 the well-known name $\OML/cmm/m/it/10 =area=servicename=certific
+ate$\T1/ptm/m/n/10 , which
  []
 
 
-Overfull \hbox (2.3569pt too wide) in paragraph at lines 34--35
-\OT1/ptm/b/n/10 Master-slave Mode\OT1/ptm/m/n/10 :In some IoT ap-pli-ca-tions, 
-there are more
+Overfull \hbox (2.3569pt too wide) in paragraph at lines 33--34
+\T1/ptm/b/n/10 Master-slave Mode\T1/ptm/m/n/10 :In some IoT ap-pli-ca-tions, th
+ere are more
  []
 
 [5
@@ -600,50 +609,50 @@ there are more
 
 ]
 
-LaTeX Warning: Reference `•' on page 6 undefined on input line 36.
+LaTeX Warning: Reference `•' on page 6 undefined on input line 35.
 
 
-LaTeX Warning: Reference `•' on page 6 undefined on input line 36.
+LaTeX Warning: Reference `•' on page 6 undefined on input line 35.
 
 
-Overfull \hbox (9.39227pt too wide) in paragraph at lines 36--37
-\OT1/ptm/m/n/10 be named as $\OML/cmm/m/it/10 =office=ac=\OT1/cmr/m/n/10 1$\OT1
-/ptm/m/n/10 , $\OML/cmm/m/it/10 =office=ac=\OT1/cmr/m/n/10 2$ \OT1/ptm/m/n/10 a
-nd $\OML/cmm/m/it/10 =office=ac=\OT1/cmr/m/n/10 3$
+Overfull \hbox (9.39227pt too wide) in paragraph at lines 35--36
+\T1/ptm/m/n/10 be named as $\OML/cmm/m/it/10 =office=ac=\OT1/cmr/m/n/10 1$\T1/p
+tm/m/n/10 , $\OML/cmm/m/it/10 =office=ac=\OT1/cmr/m/n/10 2$ \T1/ptm/m/n/10 and 
+$\OML/cmm/m/it/10 =office=ac=\OT1/cmr/m/n/10 3$
  []
 
 
-Overfull \hbox (26.35pt too wide) in paragraph at lines 36--37
-\OT1/ptm/m/n/10 . The ther-mo-stat ex-presses a par-tial name $\OML/cmm/m/it/10
- =office=ac=certificate$
+Overfull \hbox (26.35pt too wide) in paragraph at lines 35--36
+\T1/ptm/m/n/10 . The ther-mo-stat ex-presses a par-tial name $\OML/cmm/m/it/10 
+=office=ac=certificate$
  []
 
 
-LaTeX Warning: Citation `**copss paper**' on page 6 undefined on input line 46.
+LaTeX Warning: Citation `**copss paper**' on page 6 undefined on input line 45.
 
 
 
 LaTeX Warning: Citation `**Multi-source paper**' on page 6 undefined on input l
-ine 49.
+ine 48.
 
 
 LaTeX Warning: Reference `NDN grouping example' on page 6 undefined on input li
-ne 50.
+ne 49.
 
 
 LaTeX Warning: Reference `MF grouping example' on page 6 undefined on input lin
-e 50.
+e 49.
 
 )
-Overfull \hbox (37.34598pt too wide) in paragraph at lines 48--37
-$\OML/cmm/m/it/10 =home=monitoring=temperature$ \OT1/ptm/m/n/10 and $\OML/cmm/m
-/it/10 =home=monitoring=light$\OT1/ptm/m/n/10 .
+Overfull \hbox (37.34598pt too wide) in paragraph at lines 47--36
+$\OML/cmm/m/it/10 =home=monitoring=temperature$ \T1/ptm/m/n/10 and $\OML/cmm/m/
+it/10 =home=monitoring=light$\T1/ptm/m/n/10 .
  []
 
 
-Overfull \hbox (6.1135pt too wide) in paragraph at lines 48--37
-\OT1/ptm/m/n/10 fies the "home tem-per-a-ture mon-i-tor-ing" ser-vice with $\OM
-L/cmm/m/it/10 GUID \OMS/cmsy/m/n/10  $
+Overfull \hbox (5.39352pt too wide) in paragraph at lines 47--36
+\T1/ptm/m/n/10 fies the "home tem-per-a-ture mon-i-tor-ing" ser-vice with $\OML
+/cmm/m/it/10 GUID \OMS/cmsy/m/n/10  $
  []
 
 [6] (E:\GitHub\ICN2015\evaluation.tex) [7
@@ -656,28 +665,28 @@ L/cmm/m/it/10 GUID \OMS/cmsy/m/n/10  $
 
 
 ] (E:\GitHub\ICN2015\main.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
  (E:\GitHub\ICN2015\main.aux
 (E:\GitHub\ICN2015\intro.aux) (E:\GitHub\ICN2015\diagram.aux)
 (E:\GitHub\ICN2015\system.aux) (E:\GitHub\ICN2015\evaluation.aux)
 (E:\GitHub\ICN2015\conclusion.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B2084614C3A935449338A21508463B65;1091.
+(rerunfilecheck)             Checksum: FA33CD7C11ACB17A1B7DB76319358D39;1037.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 6699 strings out of 493921
- 97495 string characters out of 3144873
- 186133 words of memory out of 3000000
- 9796 multiletter control sequences out of 15000+200000
- 42890 words of font info for 52 fonts, out of 3000000 for 9000
+ 6911 strings out of 493921
+ 99384 string characters out of 3144873
+ 185672 words of memory out of 3000000
+ 10005 multiletter control sequences out of 15000+200000
+ 45712 words of font info for 51 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  42i,11n,30p,1676b,327s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
@@ -689,9 +698,9 @@ iKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.
 9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on main.pdf (8 pages, 253444 bytes).
+Output written on main.pdf (8 pages, 252495 bytes).
 PDF statistics:
- 167 PDF objects out of 1000 (max. 8388607)
+ 166 PDF objects out of 1000 (max. 8388607)
  29 named destinations out of 1000 (max. 500000)
  144 words of extra memory for PDF output out of 10000 (max. 10000000)
 
