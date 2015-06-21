@@ -1,11 +1,15 @@
 \section{Related Work}
 \label{sec:related}
-ICN is a promising architecture for a general purpose future Internet, including Internet of Things. Previous works by Zhang Y. et al~\cite{ietfdraft} states the benefits that ICN network is capable to bring to IoT, including efficient data retrieval, well support of mobility, naming, scalability and security. 
+ICN is a promising architecture for a general purpose future Internet, including Internet of Things. Previous works by Zhang Y. et al~\cite{ietfdraft} and Li S. et al~\cite{compare_study} states the benefits that ICN network is capable to bring to IoT, including efficient data retrieval, well support of mobility, naming, scalability and security.
 
-Study by Shang et al.~\cite{shang2014securing} demonstrates a practical use case that integrates NDN with Building Management System (BMS). It shows that human-readable hierarchical naming scheme brings convenience in configuring and managing large number of BACnet devices.
+Some early work have demonstrated the feasibility of ICN on particular IoT system for both public space and home automation.  
 
-Another study by Amadeo et al.~\cite{amadeo2014multi} provides a solution on efficient multi-source data retrieval. It proposes a method to use one Interest to retrieve multiple data with different suffixes on different location by adjusting the traditional NDN protocol. 
 
- 
-NDN BMS, NDN Multisource Retrival
-PSI Architecture
+Another study by Amadeo et al.~\cite{amadeo2014multi} provides a solution on efficient multi-source data retrieval. It proposes a method to use one Interest to retrieve multiple data with different suffixes on different location by adjusting the traditional NDN protocol to support "prefix-based" interest. For example, a subscriber is interested in the resource named "/office/temperature", which is the information from multiple sensor deployed in his office. At the same time, temperature sensors should advertise their resource with this prefix and their own suffix(e.g sensor in the conference room should be named "/office/temperature/conferenceroom"). Hence, the subscriber can issue single interest to retrieve multiple resource.
+
+
+George et al.~\cite{polyzos2015building} propose a Publish-Subscribe Internetworking ICN architecture that 
+that identifier can be used to represent a thing, an application, a group of similar, or any contextual specific entity in the network. A Rendezvous Node functions as a middle box where advertisement from publisher and subscription request from subscriber can meet up to form a membership. 
+
+Many study take one step further to implement IoT system over ICN architecture. In the study by Shang et al.~\cite{shang2014securing}, a practical use case that integrates NDN with Building Management System (BMS) is represented. It shows that human-readable hierarchical naming scheme brings convenience in configuring and managing large number of BACnet devices. Baccelli et al.~\cite{baccelli2014information} report a CCN experiment over a life-size IoT system. They port light-weight CCN-lite code with the RIOT operating system. Based on this platform, performance of various routing protocol and impact of caching have been measured.  
+
