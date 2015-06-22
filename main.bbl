@@ -61,4 +61,9 @@ T.~Vu, A.~Baid, Y.~Zhang, T.~D. Nguyen, J.~Fukuyama, R.~P. Martin, and
   locator mappings in the global internet,'' in \emph{IEEE 32nd International
   Conference on Distributed Computing Systems (ICDCS), 2012}.
 
+\bibitem{zhang2013icn}
+Y.~Zhang, D.~Raychadhuri, R.~Ravindran, and G.~Wang, ``Icn based architecture
+  for iot,'' IETF Internet Draft draft-zhang-iot-icn-architecture-00. IRTF,
+  Tech. Rep., 2013.
+
 \end{thebibliography}
