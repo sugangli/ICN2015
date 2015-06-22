@@ -1,25 +1,27 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
-A level-1 auxiliary file: intro.aux
-A level-1 auxiliary file: related.aux
-A level-1 auxiliary file: system.aux
-White space in argument---line 4 of file system.aux
+White space in argument---line 43 of file main.aux
  : \citation{*cite
  :                 Zigbee ipj*}
 I'm skipping whatever remains of this command
-White space in argument---line 9 of file system.aux
+White space in argument---line 48 of file main.aux
  : \citation{**copss
  :                   paper**}
 I'm skipping whatever remains of this command
-White space in argument---line 10 of file system.aux
+White space in argument---line 49 of file main.aux
  : \citation{**Multi-source
  :                          paper**}
 I'm skipping whatever remains of this command
-A level-1 auxiliary file: evaluation.aux
-A level-1 auxiliary file: conclusion.aux
-I couldn't open style file sig-alternate-10pt.bst
----line 24 of file main.aux
- : \bibstyle{sig-alternate-10pt
- :                             }
-I'm skipping whatever remains of this command
-I found no style file---while reading file main.aux
-(There were 5 error messages)
+The style file: IEEEtranS.bst
+Database file #1: iot.bib
+Warning--I didn't find a database entry for "ietfdraft"
+Warning--I didn't find a database entry for "compare_study"
+Warning--I didn't find a database entry for "***"
+-- IEEEtranS.bst version 1.12 (2007/01/11) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+** Sorting version - not for normal IEEE work.
+Warning--to sort, need author, organization, or key in ciscovisual
+Warning--empty year in vu2012dmap
+
+Done.
+(There were 3 error messages)

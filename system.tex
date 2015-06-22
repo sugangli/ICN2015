@@ -3,11 +3,14 @@ In this section, we will propose a overall system design formed by three distrib
 \subsection{Physical Components}
 \begin{itemize}
 \vspace{-2pt}\item{\em Aggregator}:
-Aggregator is the base-line component in our middlware architecture that interconnects the various IoT service in the local network. Aggregator usually acts as gateway for resource-constraint wireless sensors, or it can be a device that integrates sensing/actuating service.
+is the base-line component in our middlware architecture that interconnects the various IoT service in the local network. A Aggregator usually acts as gateway for resource-constraint wireless sensors, or it can be a device that integrates sensing/actuating service. 
 \vspace{-2pt}\item{\em Local Service Gateway}:
+connects the local IoT system to the outside world. It handles local name assignment and sensor data access policy enforcement. Furthermore, context data processing service can be implemented within this entity to publish only the information abstraction to IoT server.    
 \vspace{-2pt}\item{\em IoT Server}:
+is a centralized server that maintains subscription membership and provides lookup service for the subscriber. Legacy IoT server also involves in the data path from publisher to subscriber, where the bandwidth of its interfaces could be a bottleneck.In contrast, IoT server in our architecture only involves in control path in which publisher and subscriber exchange their names and certificates.  
 \end{itemize}
 
+We will discuss the breakdown functionality of each  physical component in following subsection to demonstrate detail protocol design.
 \subsection{Device Discovery}
 The objective of device discovery is to ***.
 Device discovery is a key component of any IoT system, which can be considerably simplified by the ICN network. In today's sensor networks and IoT systems, the device discovery module mainly focuses on the reach-ability of a device, instead of device type and service type~\cite{***}. This method becomes inconvenient when a large number of sensors are deployed in the field and the developer needs to configure each device manually. Furthermore, a translation service is required to maintain the mapping from network addresses to names. In contrast, ICN uses names to discover new devices, without involving manual configuration or name translation. Below, we explain the ICN-IoT device discovery process in detail, including both devices that are able to run  full-stack protocols (referred to as \emph{resource-rich sensors}) and devices that are unable to do so (referred to as \emph{resource-constrained sensors}).

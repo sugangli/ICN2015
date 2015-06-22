@@ -1,45 +1,46 @@
-\documentclass{sig-alternate-10pt}
+\documentclass{IEEEtran}
 \usepackage{graphicx}
-%\usepackage{balance}
+\usepackage{balance}
 \usepackage{comment}
 \usepackage{times,epsfig,subfigure,endnotes,color,url,paralist,multirow,float}
 \usepackage{epstopdf}
 \usepackage[pdftex]{hyperref}
-%\hypersetup{
-%	pdftitle={SIGCHI Conference Proceedings Format},
-%	pdfauthor={LaTeX},
-%	pdfkeywords={SIGCHI, proceedings, archival format},
-%	bookmarksnumbered,
-%	pdfstartview={FitH},
-%	colorlinks,
-%	citecolor=black,
-%	filecolor=black,
-%	linkcolor=black,
-%	urlcolor=black,
-	%breaklinks=true,
-%}
+\usepackage{float}
+\usepackage[font=scriptsize,labelfont=bf]{caption}
+\pagenumbering{gobble}
+
 
 \begin{document}
 
 \title{IoT Middleware over Information-Centric Network}
-\numberofauthors{1}
+%\numberofauthors{1}
+%\author{
+%\alignauthor 
+%Sugang Li, Yanyong Zhang, Dipankar Raychadhuri\\
+%Ravi Ravindran, Qingji Zheng, Guoqiang Wang\\
+%\affaddr{WINLAB, Rutgers University, North Brunswick, NJ, USA}\\
+%\affaddr{Huawei Technologies, Santa Clara, CA,USA}\\
+%}
+
 \author{
-\alignauthor 
-Sugang Li, Yanyong Zhang, Dipankar Raychadhuri\\
-Ravi Ravindran, Qingji Zheng, Guoqiang Wang\\
-\affaddr{WINLAB, Rutgers University, North Brunswick, NJ, USA}\\
-\affaddr{Huawei Technologies, Santa Clara, CA,USA}\\
+    \IEEEauthorblockN{Sugang Li\IEEEauthorrefmark{1}, Yanyong Zhang\IEEEauthorrefmark{1}, Dipankar Raychaudhuri\IEEEauthorrefmark{1}, Ravishankar Ravindran\IEEEauthorrefmark{2}, Qingji Zheng\IEEEauthorrefmark{2}, Guoqiang Wang\IEEEauthorrefmark{2}}
+    
+    \IEEEauthorblockA{\IEEEauthorrefmark{1}WINLAB, Rutgers University, North Brunswick, NJ, USA}
+    
+    \IEEEauthorblockA{\IEEEauthorrefmark{2}Huawei Research Center, Santa Clara, CA, USA}
 }
+
 \maketitle
-\include{intro}
-\include{related}
-\include{system}
-\include{evaluation}
-\include{conclusion}
-%\balance
-%\scriptsize
+%\let\clearpage\relax
+\input{intro}
+\input{related}
+\input{system}
+\input{evaluation}
+\input{conclusion}
+\balance
+\scriptsize
 %\footnotesize
 %\small
-\bibliographystyle{sig-alternate-10pt}
+\bibliographystyle{IEEEtranS}
 \bibliography{iot}
 \end{document}
