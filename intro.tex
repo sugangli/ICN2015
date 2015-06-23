@@ -29,7 +29,7 @@ MF utilizes GUID to name every network object, while separating this GUID from i
 \includegraphics[width=\columnwidth]{figure/mf_arch.eps}
 \caption{\label{fig:mf_arch}Mobilityfirst architecture.}
 \end{figure}
-\subsection{MF Multicast}
+\subsection{MF Multicast}\label{sec:multi}
 MF multicast is based on the idea of group GUID that gathers multiple network objects into one entity. Group GUID  to object GUID mapping is a one-to-many mapping that being maintained at GNRS server. Network object can claim to join the multicast group, and either edge router or a centralized management service will perform insertion of the object GUID to group GUID mapping to into GNRS server. When the first router queries GNRS server for a group GUID mapping, GNRS server returns a list of member GUIDs. The router assembles these GUIDs into the header and performs $Longest Common Path$ algorithm to determine the next hop address.Shown as Figure~\ref{fig:multicast}, routers look up the routing table for these GUIDs, and check if there are multiple next hops. When the number of result is more than one, the router reassembles the header and forwards the copied packet to corresponding interfaces.
 \begin{figure}
 \centering
