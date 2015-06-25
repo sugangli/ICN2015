@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.30)  23 JUN 2015 13:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.30)  23 JUN 2015 17:43
 entering extended mode
 **main.tex
 (E:\GitHub\ICN2015\main.tex
@@ -539,44 +539,63 @@ Underfull \hbox (badness 1803) in paragraph at lines 44--45
  []
 
 
-LaTeX Warning: Reference `' on page  undefined on input line 47.
-
-
-LaTeX Warning: Citation `**copss paper**' on page  undefined on input line 56.
+LaTeX Warning: Reference `' on page  undefined on input line 49.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.57 
+l.51 
       [4 <E:/GitHub/ICN2015/figure/service_discovery.png>]
 
+LaTeX Warning: Citation `**copss paper**' on page  undefined on input line 60.
+
+
 LaTeX Warning: Citation `**Multi-source paper**' on page  undefined on input li
-ne 59.
+ne 63.
 
 
 LaTeX Warning: Reference `NDN grouping example' on page  undefined on input lin
-e 60.
+e 64.
 
 
 LaTeX Warning: Reference `MF grouping example' on page  undefined on input line
- 60.
+ 64.
 
-) (E:\GitHub\ICN2015\evaluation.tex) (E:\GitHub\ICN2015\conclusion.tex)
-(E:\GitHub\ICN2015\main.bbl)
+<figure/pub_sub.png, id=142, 433.11812pt x 280.04625pt>
+File: figure/pub_sub.png Graphic file (type png)
+
+<use figure/pub_sub.png>
+Package pdftex.def Info: figure/pub_sub.png used on input line 67.
+(pdftex.def)             Requested size: 253.04987pt x 163.61914pt.
+) (E:\GitHub\ICN2015\evaluation.tex)
+(E:\GitHub\ICN2015\conclusion.tex) (E:\GitHub\ICN2015\main.bbl
+Underfull \vbox (badness 2027) has occurred while \output is active []
+
+
+
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2 \begin{thebibliography}{1}
+                               [5 <E:/GitHub/ICN2015/figure/pub_sub.png>])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.46 \end{document}
-                    [5]
+                    [6]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
  (E:\GitHub\ICN2015\main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F193B5331274EB2EBFAEF93AA4FB18F3;1081.
+(rerunfilecheck)             Checksum: 439AC96551E2CCE62A3A18D95363C3E6;1097.
 
 
 LaTeX Warning: There were undefined references.
@@ -584,25 +603,26 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
- 7409 strings out of 493921
- 118412 string characters out of 3144873
- 212504 words of memory out of 3000000
- 10556 multiletter control sequences out of 15000+200000
- 40681 words of font info for 76 fonts, out of 3000000 for 9000
+ 7419 strings out of 493921
+ 118572 string characters out of 3144873
+ 207504 words of memory out of 3000000
+ 10562 multiletter control sequences out of 15000+200000
+ 42266 words of font info for 78 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 42i,7n,38p,1674b,325s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,8n,38p,1674b,325s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
-type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/t
-imes/utmri8a.pfb>
-Output written on main.pdf (5 pages, 294716 bytes).
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
+s/utmri8a.pfb>
+Output written on main.pdf (6 pages, 339162 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 162 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 191 PDF objects out of 1000 (max. 8388607)
+ 34 named destinations out of 1000 (max. 500000)
+ 167 words of extra memory for PDF output out of 10000 (max. 10000000)
 
