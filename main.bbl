@@ -21,10 +21,11 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{ciscovisual}
-``Cisco visual networking index: Global mobile data traffic forecast update,''
-  \url{http://www.cisco.com/c/en/us/solutions/collateral/service-provider/visual-networking-index-vni/white_paper_c11-520862.html},
-  2009-2014.
+\bibitem{alljoyn}
+``Alljoyn,'' \url{https://allseenalliance.org/developers/learn}, 2009-2014.
+
+\bibitem{iotivity}
+``Iotivity,'' \url{https://www.iotivity.org/about}, 2009-2014.
 
 \bibitem{amadeo2014multi}
 M.~Amadeo, C.~Campolo, and A.~Molinaro, ``Multi-source data retrieval in iot
@@ -63,7 +64,7 @@ T.~Vu, A.~Baid, Y.~Zhang, T.~D. Nguyen, J.~Fukuyama, R.~P. Martin, and
 
 \bibitem{zhang2013icn}
 Y.~Zhang, D.~Raychadhuri, R.~Ravindran, and G.~Wang, ``Icn based architecture
-  for iot,'' IETF Internet Draft draft-zhang-iot-icn-architecture-00. IRTF,
-  Tech. Rep., 2013.
+  for iot - requirements and challenges,'' IETF Internet Draft
+  draft-zhang-iot-icn-architecture-00. IRTF, Tech. Rep., 2013.
 
 \end{thebibliography}
