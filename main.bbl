@@ -40,6 +40,12 @@ E.~Baccelli, C.~Mehlis, O.~Hahm, T.~C. Schmidt, and M.~W{\"a}hlisch,
   Information-centric networking}.\hskip 1em plus 0.5em minus 0.4em\relax ACM,
   2014, pp. 77--86.
 
+\bibitem{chen2011copss}
+J.~Chen, M.~Arumaithurai, L.~Jiao, X.~Fu, and K.~Ramakrishnan, ``Copss: An
+  efficient content oriented publish/subscribe system,'' in \emph{Seventh
+  ACM/IEEE Symposium on Architectures for Networking and Communications Systems
+  (ANCS), 2011}.
+
 \bibitem{hui2008ip}
 J.~W. Hui and D.~E. Culler, ``Ip is dead, long live ip for wireless sensor
   networks,'' in \emph{Proceedings of the 6th ACM conference on Embedded
