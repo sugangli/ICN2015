@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.30)  29 JUN 2015 22:43
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.30)  30 JUN 2015 12:18
 entering extended mode
 **main.tex
 (E:\GitHub\ICN2015\main.tex
@@ -444,24 +444,23 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 36.
 
 (E:\GitHub\ICN2015\intro.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 11.
 
-LaTeX Warning: Reference `sec:system' on page  undefined on input line 16.
-
-<figure/middleware_architecture.png, id=60, 722.7pt x 542.025pt>
+<figure/middleware_architecture.png, id=61, 722.7pt x 542.025pt>
 File: figure/middleware_architecture.png Graphic file (type png)
 
 <use figure/middleware_architecture.png>
 Package pdftex.def Info: figure/middleware_architecture.png used on input line 
-19.
+26.
 (pdftex.def)             Requested size: 253.04987pt x 189.78603pt.
-
-
-LaTeX Warning: Reference `' on page  undefined on input line 26.
-
-[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+ [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
  <E:/GitHub/ICN2015/figure/middleware_architecture.png>]
+
+LaTeX Warning: Reference `' on page  undefined on input line 33.
+
 Package epstopdf Info: Source file: <figure/mf_arch.eps>
 (epstopdf)                    date: 2014-06-16 09:17:45
 (epstopdf)                    size: 225262 bytes
@@ -470,58 +469,53 @@ Package epstopdf Info: Source file: <figure/mf_arch.eps>
 (epstopdf)                    size: 36310 bytes
 (epstopdf)             Command: <epstopdf --outfile=figure/mf_arch-eps-converte
 d-to.pdf figure/mf_arch.eps>
-(epstopdf)             \includegraphics on input line 35.
+(epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
-
-<figure/mf_arch-eps-converted-to.pdf, id=76, 693.59125pt x 410.53375pt>
+<figure/mf_arch-eps-converted-to.pdf, id=78, 693.59125pt x 410.53375pt>
 File: figure/mf_arch-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figure/mf_arch-eps-converted-to.pdf>
 Package pdftex.def Info: figure/mf_arch-eps-converted-to.pdf used on input line
- 35.
+ 42.
 (pdftex.def)             Requested size: 253.04987pt x 149.77779pt.
 
-<figure/multicast.png, id=78, 722.7pt x 542.025pt>
+<figure/multicast.png, id=80, 722.7pt x 542.025pt>
 File: figure/multicast.png Graphic file (type png)
  <use figure/multicast.png>
-Package pdftex.def Info: figure/multicast.png used on input line 43.
+Package pdftex.def Info: figure/multicast.png used on input line 50.
 (pdftex.def)             Requested size: 253.04987pt x 189.78603pt.
 )
-(E:\GitHub\ICN2015\related.tex
-Underfull \vbox (badness 6380) has occurred while \output is active []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
+(E:\GitHub\ICN2015\related.texpdfTeX warning (ext4): destination with the same 
+identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.15 
-      [2 <E:/GitHub/ICN2015/figure/mf_arch-eps-converted-to.pdf> <E:/GitHub/ICN
-2015/figure/multicast.png>]) (E:\GitHub\ICN2015\system.tex
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 5.
+l.11 G
+      eorge et al.~\cite{polyzos2015building} propose a Publish-Subscribe In...
+[2 <E:/GitHub/ICN2015/figure/mf_arch-eps-converted-to.pdf> <E:/GitHub/ICN2015/f
+igure/multicast.png>]) (E:\GitHub\ICN2015\system.tex
 Missing character: There is no ã in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 
-<figure/device_discovery.png, id=113, 320.69812pt x 233.37187pt>
+<figure/device_discovery.png, id=112, 320.69812pt x 233.37187pt>
 File: figure/device_discovery.png Graphic file (type png)
 
 <use figure/device_discovery.png>
 Package pdftex.def Info: figure/device_discovery.png used on input line 23.
 (pdftex.def)             Requested size: 253.04987pt x 184.14809pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.32 
-      [3 <E:/GitHub/ICN2015/figure/device_discovery.png>]
-<figure/service_discovery.png, id=126, 487.06969pt x 319.94531pt>
+
+<figure/service_discovery.png, id=115, 487.06969pt x 319.94531pt>
 File: figure/service_discovery.png Graphic file (type png)
 
 <use figure/service_discovery.png>
 Package pdftex.def Info: figure/service_discovery.png used on input line 36.
 (pdftex.def)             Requested size: 253.04987pt x 166.22116pt.
-
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.40 
+      [3]
 
 LaTeX Warning: Reference `â€¢' on page  undefined on input line 43.
 
@@ -534,8 +528,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.53 
-      [4 <E:/GitHub/ICN2015/figure/service_discovery.png>]
+l.51 
+      [4 <E:/GitHub/ICN2015/figure/device_discovery.png> <E:/GitHub/ICN2015/fig
+ure/service_discovery.png>]
 
 LaTeX Warning: Citation `**Multi-source paper**' on page  undefined on input li
 ne 63.
@@ -548,7 +543,7 @@ e 64.
 LaTeX Warning: Reference `MF grouping example' on page  undefined on input line
  64.
 
-<figure/pub_sub.png, id=138, 433.11812pt x 280.04625pt>
+<figure/pub_sub.png, id=139, 433.11812pt x 280.04625pt>
 File: figure/pub_sub.png Graphic file (type png)
 
 <use figure/pub_sub.png>
@@ -558,6 +553,9 @@ Package pdftex.def Info: figure/pub_sub.png used on input line 67.
 Missing character: There is no ã in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
@@ -608,12 +606,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
  ) 
 Here is how much of TeX's memory you used:
  7422 strings out of 493921
- 118781 string characters out of 3144873
- 212504 words of memory out of 3000000
+ 118783 string characters out of 3144873
+ 210504 words of memory out of 3000000
  10563 multiletter control sequences out of 15000+200000
  40681 words of font info for 76 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 42i,7n,38p,1850b,321s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,7n,38p,1850b,325s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Fil
@@ -624,9 +622,9 @@ es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files
 /fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on main.pdf (6 pages, 358885 bytes).
+Output written on main.pdf (6 pages, 359481 bytes).
 PDF statistics:
- 229 PDF objects out of 1000 (max. 8388607)
+ 230 PDF objects out of 1000 (max. 8388607)
  36 named destinations out of 1000 (max. 500000)
  148 words of extra memory for PDF output out of 10000 (max. 10000000)
 
