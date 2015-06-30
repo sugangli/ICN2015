@@ -76,6 +76,11 @@ G.~C. Polyzos and N.~Fotiou, ``Building a reliable internet of things using
   information-centric networking,'' \emph{Journal of Reliable Intelligent
   Environments}, pp. 1--12, 2015.
 
+\bibitem{raychaudhuri2012mobilityfirst}
+D.~Raychaudhuri, K.~Nagaraja, and A.~Venkataramani, ``Mobilityfirst: a robust
+  and trustworthy mobility-centric architecture for the future internet,''
+  \emph{ACM SIGMOBILE Mobile Computing and Communications Review}, 2012.
+
 \bibitem{shang2014securing}
 W.~Shang, Q.~Ding, A.~Marianantoni, J.~Burke, and L.~Zhang, ``Securing building
   management systems using named data networking,'' \emph{Network, IEEE},
@@ -86,6 +91,10 @@ T.~Vu, A.~Baid, Y.~Zhang, T.~D. Nguyen, J.~Fukuyama, R.~P. Martin, and
   D.~Raychaudhuri, ``Dmap: A shared hosting scheme for dynamic identifier to
   locator mappings in the global internet,'' in \emph{IEEE 32nd International
   Conference on Distributed Computing Systems (ICDCS), 2012}.
+
+\bibitem{zhang2010named}
+L.~Zhang, A.~Afanasyev, J.~Burke, V.~Jacobson, P.~Crowley, C.~Papadopoulos,
+  L.~Wang, and B.~Zhang, ``Named data networking,'' 2010.
 
 \bibitem{zhang2013icn}
 Y.~Zhang, D.~Raychadhuri, R.~Ravindran, and G.~Wang, ``Icn based architecture
