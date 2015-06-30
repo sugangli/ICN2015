@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.30)  29 JUN 2015 17:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.30)  29 JUN 2015 22:22
 entering extended mode
 **main.tex
 (E:\GitHub\ICN2015\main.tex
@@ -382,20 +382,20 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: subfigure package is loaded.
 ) (E:\GitHub\ICN2015\main.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -412,7 +412,7 @@ LaTeX Font Info:    ... okay on input line 13.
 \everyMPtoPDFconversion=\toks20
 )
 \AtBeginShipoutBox=\box30
-Package hyperref Info: Link coloring OFF on input line 13.
+Package hyperref Info: Link coloring OFF on input line 14.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -421,33 +421,33 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count115
 )
-LaTeX Info: Redefining \ref on input line 13.
-LaTeX Info: Redefining \pageref on input line 13.
-LaTeX Info: Redefining \nameref on input line 13.
+LaTeX Info: Redefining \ref on input line 14.
+LaTeX Info: Redefining \pageref on input line 14.
+LaTeX Info: Redefining \nameref on input line 14.
 
 (E:\GitHub\ICN2015\main.out) (E:\GitHub\ICN2015\main.out)
 \@outlinefile=\write5
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 35.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11> on input line 35.
+(Font)              <11> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.69997> on input line 35.
+(Font)              <7.69997> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.5> on input line 35.
+(Font)              <5.5> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 35.
+(Font)              <8> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 35.
+(Font)              <6> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 35.
+(Font)              <5> on input line 36.
 
 (E:\GitHub\ICN2015\intro.tex
 
 LaTeX Warning: Reference `sec:system' on page  undefined on input line 16.
 
-<figure/middleware_architecture.png, id=68, 722.7pt x 542.025pt>
+<figure/middleware_architecture.png, id=60, 722.7pt x 542.025pt>
 File: figure/middleware_architecture.png Graphic file (type png)
 
 <use figure/middleware_architecture.png>
@@ -473,7 +473,7 @@ d-to.pdf figure/mf_arch.eps>
 (epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
 
-<figure/mf_arch-eps-converted-to.pdf, id=84, 693.59125pt x 410.53375pt>
+<figure/mf_arch-eps-converted-to.pdf, id=76, 693.59125pt x 410.53375pt>
 File: figure/mf_arch-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figure/mf_arch-eps-converted-to.pdf>
@@ -481,17 +481,13 @@ Package pdftex.def Info: figure/mf_arch-eps-converted-to.pdf used on input line
  35.
 (pdftex.def)             Requested size: 253.04987pt x 149.77779pt.
 
-<figure/multicast.png, id=86, 722.7pt x 542.025pt>
+<figure/multicast.png, id=78, 722.7pt x 542.025pt>
 File: figure/multicast.png Graphic file (type png)
  <use figure/multicast.png>
 Package pdftex.def Info: figure/multicast.png used on input line 43.
 (pdftex.def)             Requested size: 253.04987pt x 189.78603pt.
 )
 (E:\GitHub\ICN2015\related.tex
-
-LaTeX Warning: Citation `compare_study' on page  undefined on input line 3.
-
-
 Underfull \vbox (badness 6380) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
@@ -507,11 +503,7 @@ Missing character: There is no ã in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 
-
-LaTeX Warning: Citation `*cite Zigbee ipj*' on page  undefined on input line 20
-.
-
-<figure/device_discovery.png, id=118, 320.69812pt x 233.37187pt>
+<figure/device_discovery.png, id=113, 320.69812pt x 233.37187pt>
 File: figure/device_discovery.png Graphic file (type png)
 
 <use figure/device_discovery.png>
@@ -521,13 +513,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 \vspace{1mm}\noindent
-                          {\bf Peer-to-peer Service Discovery}: In this mode...
-[3 <E:/GitHub/ICN2015/figure/device_discovery.png>]
+l.32 
+      [3 <E:/GitHub/ICN2015/figure/device_discovery.png>]
 
 LaTeX Warning: Reference `sec:multi' on page  undefined on input line 34.
 
-<figure/service_discovery.png, id=129, 487.06969pt x 319.94531pt>
+<figure/service_discovery.png, id=125, 487.06969pt x 319.94531pt>
 File: figure/service_discovery.png Graphic file (type png)
 
 <use figure/service_discovery.png>
@@ -538,88 +529,97 @@ Package pdftex.def Info: figure/service_discovery.png used on input line 36.
 LaTeX Warning: Reference `â€¢' on page  undefined on input line 43.
 
 
-LaTeX Warning: Reference `â€¢' on page  undefined on input line 43.
-
-
 Underfull \hbox (badness 1803) in paragraph at lines 43--44
 \OT1/ptm/m/n/10 the num-ber of AC ser-vice provider in-creases to three,
  []
 
-Missing character: There is no ï in font ptmri7t!
-Missing character: There is no ¼ in font ptmri7t!
-Missing character: There is no Œ in font ptmri7t!
-
-LaTeX Warning: Reference `' on page  undefined on input line 48.
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.50 
+l.53 
       [4 <E:/GitHub/ICN2015/figure/service_discovery.png>]
 
-LaTeX Warning: Citation `**copss paper**' on page  undefined on input line 59.
+LaTeX Warning: Citation `**copss paper**' on page  undefined on input line 60.
 
 
 LaTeX Warning: Citation `**Multi-source paper**' on page  undefined on input li
-ne 62.
+ne 63.
 
 
 LaTeX Warning: Reference `NDN grouping example' on page  undefined on input lin
-e 63.
+e 64.
 
 
 LaTeX Warning: Reference `MF grouping example' on page  undefined on input line
- 63.
+ 64.
 
-<figure/pub_sub.png, id=139, 433.11812pt x 280.04625pt>
+<figure/pub_sub.png, id=136, 433.11812pt x 280.04625pt>
 File: figure/pub_sub.png Graphic file (type png)
 
 <use figure/pub_sub.png>
-Package pdftex.def Info: figure/pub_sub.png used on input line 66.
+Package pdftex.def Info: figure/pub_sub.png used on input line 67.
 (pdftex.def)             Requested size: 253.04987pt x 163.61914pt.
-) (E:\GitHub\ICN2015\evaluation.tex)
-(E:\GitHub\ICN2015\conclusion.tex) (E:\GitHub\ICN2015\main.bbl
-
-Package balance Warning: You have called \balance in second column
-(balance)                Columns might not be balanced.
-
+) (E:\GitHub\ICN2015\evaluation.tex
+Missing character: There is no ã in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 
-      [5 <E:/GitHub/ICN2015/figure/pub_sub.png>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
+l.3 
+     [5 <E:/GitHub/ICN2015/figure/pub_sub.png>]
+Package epstopdf Info: Source file: <figure/multicast_mf_overhead.eps>
+(epstopdf)                    date: 2015-06-29 19:10:32
+(epstopdf)                    size: 35593 bytes
+(epstopdf)             Output file: <figure/multicast_mf_overhead-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2015-06-29 19:15:49
+(epstopdf)                    size: 20127 bytes
+(epstopdf)             Command: <epstopdf --outfile=figure/multicast_mf_overhea
+d-eps-converted-to.pdf figure/multicast_mf_overhead.eps>
+(epstopdf)             \includegraphics on input line 5.
+Package epstopdf Info: Output file is already uptodate.
 
-Overfull \vbox (0.91841pt too high) has occurred while \output is active []
+<figure/multicast_mf_overhead-eps-converted-to.pdf, id=144, 587.19376pt x 442.6
+5375pt>
+File: figure/multicast_mf_overhead-eps-converted-to.pdf Graphic file (type pdf)
 
+ <use figure/multicast_mf_overhead-eps-converted-to.pdf>
+Package pdftex.def Info: figure/multicast_mf_overhead-eps-converted-to.pdf used
+ on input line 5.
+(pdftex.def)             Requested size: 253.04987pt x 190.75616pt.
+)
+(E:\GitHub\ICN2015\conclusion.tex) (E:\GitHub\ICN2015\main.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.46 \end{document}
-                    [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
+l.47 \end{document}
+                    [6 <E:/GitHub/ICN2015/figure/multicast_mf_overhead-eps-conv
+erted-to.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
  (E:\GitHub\ICN2015\main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4CB747F7868B0961DAEF042D0354F4F1;1066.
+(rerunfilecheck)             Checksum: B4F0A5FF9FD931ACF07B7F28ADF7ED1C;923.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
  ) 
 Here is how much of TeX's memory you used:
- 7417 strings out of 493921
- 118534 string characters out of 3144873
- 206504 words of memory out of 3000000
- 10560 multiletter control sequences out of 15000+200000
- 42266 words of font info for 78 fonts, out of 3000000 for 9000
+ 7421 strings out of 493921
+ 118762 string characters out of 3144873
+ 210504 words of memory out of 3000000
+ 10563 multiletter control sequences out of 15000+200000
+ 40681 words of font info for 76 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 42i,8n,38p,1669b,459s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,7n,38p,1850b,321s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Fil
@@ -630,9 +630,9 @@ es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files
 /fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on main.pdf (6 pages, 337959 bytes).
+Output written on main.pdf (6 pages, 358041 bytes).
 PDF statistics:
- 188 PDF objects out of 1000 (max. 8388607)
- 34 named destinations out of 1000 (max. 500000)
- 159 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 226 PDF objects out of 1000 (max. 8388607)
+ 35 named destinations out of 1000 (max. 500000)
+ 148 words of extra memory for PDF output out of 10000 (max. 10000000)
 
