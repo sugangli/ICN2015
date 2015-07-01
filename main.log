@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.30)  30 JUN 2015 17:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.30)  30 JUN 2015 20:33
 entering extended mode
 **main.tex
 (E:\GitHub\ICN2015\main.tex
@@ -490,10 +490,10 @@ Package pdftex.def Info: figure/multicast.png used on input line 50.
 identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.9 
+l.4 
      [2 <E:/GitHub/ICN2015/figure/mf_arch-eps-converted-to.pdf> <E:/GitHub/ICN2
 015/figure/multicast.png>]) (E:\GitHub\ICN2015\system.tex
-<figure/physical_comp.png, id=114, 478.28688pt x 169.63374pt>
+<figure/physical_comp.png, id=113, 478.28688pt x 169.63374pt>
 File: figure/physical_comp.png Graphic file (type png)
 
 <use figure/physical_comp.png>
@@ -503,7 +503,7 @@ Missing character: There is no ã in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 
-<figure/device_discovery.png, id=119, 320.69812pt x 233.37187pt>
+<figure/device_discovery.png, id=118, 320.69812pt x 233.37187pt>
 File: figure/device_discovery.png Graphic file (type png)
 
 <use figure/device_discovery.png>
@@ -515,7 +515,7 @@ een already used, duplicate ignored
                    \relax 
 l.30 
       [3 <E:/GitHub/ICN2015/figure/physical_comp.png>]
-<figure/service_discovery.png, id=134, 487.06969pt x 319.94531pt>
+<figure/service_discovery.png, id=133, 487.06969pt x 319.94531pt>
 File: figure/service_discovery.png Graphic file (type png)
 
 <use figure/service_discovery.png>
@@ -544,18 +544,17 @@ File: figure/pub_sub.png Graphic file (type png)
 Package pdftex.def Info: figure/pub_sub.png used on input line 71.
 (pdftex.def)             Requested size: 253.04987pt x 163.61914pt.
 ) (E:\GitHub\ICN2015\evaluation.tex
-Missing character: There is no ã in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2564) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3 
-     [5]
+l.1 \section
+            {Evaluation} [5]
+Missing character: There is no ã in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
 Package epstopdf Info: Source file: <figure/multicast_mf_overhead.eps>
 (epstopdf)                    date: 2015-06-30 12:37:52
 (epstopdf)                    size: 35594 bytes
@@ -577,19 +576,17 @@ Package pdftex.def Info: figure/multicast_mf_overhead-eps-converted-to.pdf used
  on input line 5.
 (pdftex.def)             Requested size: 253.04987pt x 190.75616pt.
 )
-(E:\GitHub\ICN2015\conclusion.tex) (E:\GitHub\ICN2015\main.bbl
-Overfull \vbox (7.43822pt too high) has occurred while \output is active []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
+(E:\GitHub\ICN2015\conclusion.tex) (E:\GitHub\ICN2015\main.bblpdfTeX warning (e
+xt4): destination with the same identifier (name{page.}) has been already used,
+ duplicate ignored
 <to be read again> 
                    \relax 
-l.98 
+l.88 
       [6 <E:/GitHub/ICN2015/figure/multicast_mf_overhead-eps-converted-to.pdf> 
 <E:/GitHub/ICN2015/figure/pub_sub.png>])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
 
-Overfull \vbox (1.11597pt too high) has occurred while \output is active []
+Overfull \vbox (0.86597pt too high) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
@@ -612,7 +609,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
 Here is how much of TeX's memory you used:
  7429 strings out of 493921
  118971 string characters out of 3144873
- 213504 words of memory out of 3000000
+ 211504 words of memory out of 3000000
  10566 multiletter control sequences out of 15000+200000
  40681 words of font info for 76 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -627,7 +624,7 @@ es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files
 /fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on main.pdf (7 pages, 381288 bytes).
+Output written on main.pdf (7 pages, 381778 bytes).
 PDF statistics:
  248 PDF objects out of 1000 (max. 8388607)
  39 named destinations out of 1000 (max. 500000)
