@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 The style file: IEEEtranS.bst
 Database file #1: iot.bib
-Repeated entry---line 214 of file iot.bib
+Repeated entry---line 218 of file iot.bib
  : @inproceedings{chen2011copss
  :                             ,
 I'm skipping whatever remains of this entry
@@ -13,7 +13,6 @@ Warning--to sort, need author, organization, or key in iotivity
 Warning--to sort, need author, organization, or key in alljoyn
 Warning--empty year in chen2011copss
 Warning--empty year in vu2012dmap
-Warning--empty journal in zhang2010named
 
 Done.
 (There was 1 error message)

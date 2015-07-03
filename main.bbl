@@ -92,9 +92,10 @@ T.~Vu, A.~Baid, Y.~Zhang, T.~D. Nguyen, J.~Fukuyama, R.~P. Martin, and
   locator mappings in the global internet,'' in \emph{IEEE 32nd International
   Conference on Distributed Computing Systems (ICDCS), 2012}.
 
-\bibitem{zhang2010named}
+\bibitem{zhang2014named}
 L.~Zhang, A.~Afanasyev, J.~Burke, V.~Jacobson, P.~Crowley, C.~Papadopoulos,
-  L.~Wang, and B.~Zhang, ``Named data networking,'' 2010.
+  L.~Wang, B.~Zhang \emph{et~al.}, ``Named data networking,'' \emph{ACM SIGCOMM
+  Computer Communication Review}, vol.~44, no.~3, pp. 66--73, 2014.
 
 \bibitem{zhang2013icn}
 Y.~Zhang, D.~Raychadhuri, R.~Ravindran, and G.~Wang, ``Icn based architecture
