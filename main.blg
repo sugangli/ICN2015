@@ -1,10 +1,13 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
 The style file: IEEEtranS.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: iot.bib
-Repeated entry---line 218 of file iot.bib
- : @inproceedings{chen2011copss
- :                             ,
-I'm skipping whatever remains of this entry
 -- IEEEtranS.bst version 1.12 (2007/01/11) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -15,4 +18,45 @@ Warning--empty year in chen2011copss
 Warning--empty year in vu2012dmap
 
 Done.
-(There was 1 error message)
+You've used 16 entries,
+            4483 wiz_defined-function locations,
+            970 strings with 11428 characters,
+and the built_in function-call counts, 13967 in all, are:
+= -- 1193
+> -- 462
+< -- 81
++ -- 234
+- -- 122
+* -- 727
+:= -- 2052
+add.period$ -- 38
+call.type$ -- 16
+change.case$ -- 108
+chr.to.int$ -- 201
+cite$ -- 20
+duplicate$ -- 883
+empty$ -- 1071
+format.name$ -- 136
+if$ -- 3126
+int.to.chr$ -- 0
+int.to.str$ -- 16
+missing$ -- 161
+newline$ -- 71
+num.names$ -- 28
+pop$ -- 490
+preamble$ -- 1
+purify$ -- 92
+quote$ -- 2
+skip$ -- 982
+stack$ -- 0
+substring$ -- 566
+swap$ -- 643
+text.length$ -- 14
+text.prefix$ -- 0
+top$ -- 6
+type$ -- 174
+warning$ -- 4
+while$ -- 68
+width$ -- 18
+write$ -- 161
+(There were 4 warnings)
