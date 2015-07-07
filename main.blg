@@ -8,6 +8,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: iot.bib
+Warning--I didn't find a database entry for "•"
 -- IEEEtranS.bst version 1.12 (2007/01/11) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -15,48 +16,49 @@ Database file #1: iot.bib
 Warning--to sort, need author, organization, or key in iotivity
 Warning--to sort, need author, organization, or key in alljoyn
 Warning--empty year in chen2011copss
+Warning--empty journal in harney1997group
 Warning--empty year in vu2012dmap
 
 Done.
-You've used 16 entries,
+You've used 17 entries,
             4483 wiz_defined-function locations,
-            970 strings with 11428 characters,
-and the built_in function-call counts, 13967 in all, are:
-= -- 1193
-> -- 462
+            976 strings with 11536 characters,
+and the built_in function-call counts, 14435 in all, are:
+= -- 1236
+> -- 476
 < -- 81
-+ -- 234
-- -- 122
-* -- 727
-:= -- 2052
-add.period$ -- 38
-call.type$ -- 16
-change.case$ -- 108
++ -- 240
+- -- 126
+* -- 749
+:= -- 2133
+add.period$ -- 40
+call.type$ -- 17
+change.case$ -- 113
 chr.to.int$ -- 201
-cite$ -- 20
-duplicate$ -- 883
-empty$ -- 1071
-format.name$ -- 136
-if$ -- 3126
+cite$ -- 22
+duplicate$ -- 918
+empty$ -- 1107
+format.name$ -- 141
+if$ -- 3223
 int.to.chr$ -- 0
-int.to.str$ -- 16
-missing$ -- 161
-newline$ -- 71
-num.names$ -- 28
-pop$ -- 490
+int.to.str$ -- 17
+missing$ -- 167
+newline$ -- 74
+num.names$ -- 30
+pop$ -- 511
 preamble$ -- 1
-purify$ -- 92
+purify$ -- 96
 quote$ -- 2
-skip$ -- 982
+skip$ -- 1016
 stack$ -- 0
-substring$ -- 566
-swap$ -- 643
+substring$ -- 572
+swap$ -- 659
 text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 174
-warning$ -- 4
-while$ -- 68
-width$ -- 18
-write$ -- 161
-(There were 4 warnings)
+type$ -- 185
+warning$ -- 5
+while$ -- 70
+width$ -- 19
+write$ -- 168
+(There were 6 warnings)

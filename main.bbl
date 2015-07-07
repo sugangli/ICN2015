@@ -46,6 +46,10 @@ J.~Chen, M.~Arumaithurai, L.~Jiao, X.~Fu, and K.~Ramakrishnan, ``Copss: An
   ACM/IEEE Symposium on Architectures for Networking and Communications Systems
   (ANCS), 2011}.
 
+\bibitem{harney1997group}
+H.~Harney and C.~Muckenhirn, ``Group key management protocol (gkmp)
+  architecture,'' 1997.
+
 \bibitem{hui2008ip}
 J.~W. Hui and D.~E. Culler, ``Ip is dead, long live ip for wireless sensor
   networks,'' in \emph{Proceedings of the 6th ACM conference on Embedded
