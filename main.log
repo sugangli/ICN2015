@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.21)  7 JUL 2015 17:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.21)  12 JUL 2015 14:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -454,7 +454,7 @@ File: figure/middleware_architecture.png Graphic file (type png)
 
 <use figure/middleware_architecture.png>
 Package pdftex.def Info: figure/middleware_architecture.png used on input line 
-26.
+31.
 (pdftex.def)             Requested size: 253.04987pt x 189.78603pt.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -468,7 +468,7 @@ Package epstopdf Info: Source file: <figure/mf_arch.eps>
 (epstopdf)                    size: 36310 bytes
 (epstopdf)             Command: <repstopdf --outfile=figure/mf_arch-eps-convert
 ed-to.pdf figure/mf_arch.eps>
-(epstopdf)             \includegraphics on input line 42.
+(epstopdf)             \includegraphics on input line 47.
 Package epstopdf Info: Output file is already uptodate.
 
 <figure/mf_arch-eps-converted-to.pdf, id=83, 693.59125pt x 410.53375pt>
@@ -476,41 +476,42 @@ File: figure/mf_arch-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figure/mf_arch-eps-converted-to.pdf>
 Package pdftex.def Info: figure/mf_arch-eps-converted-to.pdf used on input line
- 42.
+ 47.
 (pdftex.def)             Requested size: 253.04987pt x 149.77779pt.
 
 <figure/multicast.png, id=85, 454.19687pt x 272.51813pt>
 File: figure/multicast.png Graphic file (type png)
 
 <use figure/multicast.png>
-Package pdftex.def Info: figure/multicast.png used on input line 50.
+Package pdftex.def Info: figure/multicast.png used on input line 55.
 (pdftex.def)             Requested size: 253.04987pt x 151.8315pt.
 ) (./related.texpdfTeX warning (ext4): destination with the same identifier (na
 me{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.7 
-     [2 <./figure/mf_arch-eps-converted-to.pdf> <./figure/multicast.png>])
+l.7 D
+     riven by the same vision, a few earlier studies have demonstrated the f...
+[2 <./figure/mf_arch-eps-converted-to.pdf> <./figure/multicast.png>])
 (./system.tex <figure/physical_comp.png, id=114, 478.28688pt x 169.63374pt>
 File: figure/physical_comp.png Graphic file (type png)
 
 <use figure/physical_comp.png>
 Package pdftex.def Info: figure/physical_comp.png used on input line 7.
 (pdftex.def)             Requested size: 253.04987pt x 89.74754pt.
-
-<figure/device_discovery.png, id=119, 318.69063pt x 229.85875pt>
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.36 
+      [3 <./figure/physical_comp.png>]
+<figure/device_discovery.png, id=130, 318.69063pt x 229.85875pt>
 File: figure/device_discovery.png Graphic file (type png)
 
 <use figure/device_discovery.png>
 Package pdftex.def Info: figure/device_discovery.png used on input line 42.
 (pdftex.def)             Requested size: 253.04987pt x 182.51585pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.45 
-      [3 <./figure/physical_comp.png>]
-<figure/service_discovery.png, id=135, 475.7775pt x 247.67531pt>
+
+<figure/service_discovery.png, id=134, 475.7775pt x 247.67531pt>
 File: figure/service_discovery.png Graphic file (type png)
 
 <use figure/service_discovery.png>
@@ -520,7 +521,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.66 
+l.63 
       [4 <./figure/device_discovery.png> <./figure/service_discovery.png>]
 
 LaTeX Warning: Citation `•' on page  undefined on input line 73.
@@ -535,8 +536,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.93 
-      [5 <./figure/pub_sub.png>]) (./evaluation.tex
+l.92 
+      [5]) (./evaluation.tex
 Package epstopdf Info: Source file: <figure/5_service_discovery_overhead.eps>
 (epstopdf)                    date: 2015-07-07 14:22:15
 (epstopdf)                    size: 32695 bytes
@@ -549,7 +550,7 @@ _overhead-eps-converted-to.pdf figure/5_service_discovery_overhead.eps>
 (epstopdf)             \includegraphics on input line 5.
 Package epstopdf Info: Output file is already uptodate.
 
-<figure/5_service_discovery_overhead-eps-converted-to.pdf, id=163, 587.19376pt 
+<figure/5_service_discovery_overhead-eps-converted-to.pdf, id=161, 587.19376pt 
 x 442.65375pt>
 File: figure/5_service_discovery_overhead-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -569,7 +570,7 @@ _overhead-eps-converted-to.pdf figure/6_service_discovery_overhead.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 
-<figure/6_service_discovery_overhead-eps-converted-to.pdf, id=164, 587.19376pt 
+<figure/6_service_discovery_overhead-eps-converted-to.pdf, id=162, 587.19376pt 
 x 442.65375pt>
 File: figure/6_service_discovery_overhead-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -587,12 +588,10 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.42 
-      [6 <./figure/5_service_discovery_overhead-eps-converted-to.pdf>])
+l.2 \begin{thebibliography}{10}
+                                [6 <./figure/pub_sub.png> <./figure/5_service_d
+iscovery_overhead-eps-converted-to.pdf>])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
-
-Overfull \vbox (1.51004pt too high) has occurred while \output is active []
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
@@ -605,7 +604,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3DCED9757ED3D2FE811E63C9635A2AEE;917.
+(rerunfilecheck)             Checksum: 1C01D13269A065C280A70819BA69C53E;910.
 
 
 LaTeX Warning: There were undefined references.
@@ -615,11 +614,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
 Here is how much of TeX's memory you used:
  7445 strings out of 493304
  118849 string characters out of 6139870
- 215397 words of memory out of 5000000
+ 213397 words of memory out of 5000000
  10742 multiletter control sequences out of 15000+600000
  40681 words of font info for 76 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 42i,7n,38p,2168b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,7n,38p,2168b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/
@@ -629,7 +628,7 @@ ublic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
 s/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (7 pages, 384255 bytes).
+Output written on main.pdf (7 pages, 384492 bytes).
 PDF statistics:
  303 PDF objects out of 1000 (max. 8388607)
  189 compressed objects within 2 object streams

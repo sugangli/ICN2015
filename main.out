@@ -3,8 +3,8 @@
 \BOOKMARK [2][-]{subsection.1.2}{Name Data Networking \(NDN\)}{section.1}% 3
 \BOOKMARK [2][-]{subsection.1.3}{MobilityFirst Background \(MF\)}{section.1}% 4
 \BOOKMARK [1][-]{section.2}{Related Work}{}% 5
-\BOOKMARK [1][-]{section.3}{ICN-IoT Middleware System Design}{}% 6
-\BOOKMARK [2][-]{subsection.3.1}{Physical Components}{section.3}% 7
+\BOOKMARK [1][-]{section.3}{ICN-IoT Middleware Design}{}% 6
+\BOOKMARK [2][-]{subsection.3.1}{System Architecture}{section.3}% 7
 \BOOKMARK [2][-]{subsection.3.2}{Device Discovery}{section.3}% 8
 \BOOKMARK [2][-]{subsection.3.3}{IoT Service Discovery}{section.3}% 9
 \BOOKMARK [2][-]{subsection.3.4}{Secure Device Discovery, Naming Service and Service Discovery}{section.3}% 10
