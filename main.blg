@@ -1,12 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: main.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 The style file: IEEEtranS.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: iot.bib
 Warning--I didn't find a database entry for "•"
 -- IEEEtranS.bst version 1.12 (2007/01/11) by Michael Shell.
@@ -20,45 +13,4 @@ Warning--empty journal in harney1997group
 Warning--empty year in vu2012dmap
 
 Done.
-You've used 17 entries,
-            4483 wiz_defined-function locations,
-            976 strings with 11536 characters,
-and the built_in function-call counts, 14435 in all, are:
-= -- 1236
-> -- 476
-< -- 81
-+ -- 240
-- -- 126
-* -- 749
-:= -- 2133
-add.period$ -- 40
-call.type$ -- 17
-change.case$ -- 113
-chr.to.int$ -- 201
-cite$ -- 22
-duplicate$ -- 918
-empty$ -- 1107
-format.name$ -- 141
-if$ -- 3223
-int.to.chr$ -- 0
-int.to.str$ -- 17
-missing$ -- 167
-newline$ -- 74
-num.names$ -- 30
-pop$ -- 511
-preamble$ -- 1
-purify$ -- 96
-quote$ -- 2
-skip$ -- 1016
-stack$ -- 0
-substring$ -- 572
-swap$ -- 659
-text.length$ -- 14
-text.prefix$ -- 0
-top$ -- 6
-type$ -- 185
-warning$ -- 5
-while$ -- 70
-width$ -- 19
-write$ -- 168
 (There were 6 warnings)
