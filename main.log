@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.30)  13 JUL 2015 14:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.30)  14 JUL 2015 19:25
 entering extended mode
 **main.tex
 (E:\GitHub\ICN2015\main.tex
@@ -497,53 +497,50 @@ l.5
      [2 <E:/GitHub/ICN2015/figure/middleware_architecture.png> <E:/GitHub/ICN20
 15/figure/mf_arch-eps-converted-to.pdf> <E:/GitHub/ICN2015/figure/multicast.png
 >]) (E:\GitHub\ICN2015\system.tex
-<figure/physical_comp.png, id=111, 478.28688pt x 169.63374pt>
+<figure/physical_comp.png, id=112, 337.26pt x 259.97125pt>
 File: figure/physical_comp.png Graphic file (type png)
 
 <use figure/physical_comp.png>
 Package pdftex.def Info: figure/physical_comp.png used on input line 7.
-(pdftex.def)             Requested size: 253.04987pt x 89.74754pt.
+(pdftex.def)             Requested size: 253.04987pt x 195.06125pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.36 
+l.35 
       [3 <E:/GitHub/ICN2015/figure/physical_comp.png>]
-<figure/device_discovery.png, id=129, 318.69063pt x 229.85875pt>
+<figure/device_discovery.png, id=127, 318.69063pt x 229.85875pt>
 File: figure/device_discovery.png Graphic file (type png)
 
 <use figure/device_discovery.png>
-Package pdftex.def Info: figure/device_discovery.png used on input line 42.
+Package pdftex.def Info: figure/device_discovery.png used on input line 43.
 (pdftex.def)             Requested size: 253.04987pt x 182.51585pt.
 
-<figure/service_discovery.png, id=133, 475.7775pt x 247.67531pt>
+<figure/service_discovery.png, id=131, 475.7775pt x 247.67531pt>
 File: figure/service_discovery.png Graphic file (type png)
 
 <use figure/service_discovery.png>
-Package pdftex.def Info: figure/service_discovery.png used on input line 55.
+Package pdftex.def Info: figure/service_discovery.png used on input line 56.
 (pdftex.def)             Requested size: 253.04987pt x 131.73212pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.63 
+l.60 
       [4 <E:/GitHub/ICN2015/figure/device_discovery.png> <E:/GitHub/ICN2015/fig
 ure/service_discovery.png>]
-
-LaTeX Warning: Citation `•' on page  undefined on input line 73.
-
-<figure/pub_sub.png, id=148, 433.11812pt x 280.04625pt>
+<figure/pub_sub.png, id=144, 433.11812pt x 280.04625pt>
 File: figure/pub_sub.png Graphic file (type png)
 
 <use figure/pub_sub.png>
-Package pdftex.def Info: figure/pub_sub.png used on input line 87.
+Package pdftex.def Info: figure/pub_sub.png used on input line 85.
 (pdftex.def)             Requested size: 253.04987pt x 163.61914pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.92 
-      [5]) (E:\GitHub\ICN2015\evaluation.tex
+l.87 \end{figure}
+                  [5]) (E:\GitHub\ICN2015\evaluation.tex
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 2.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
@@ -563,7 +560,7 @@ overhead-eps-converted-to.pdf figure/5_service_discovery_overhead.eps>
 (epstopdf)             \includegraphics on input line 5.
 Package epstopdf Info: Output file is already uptodate.
 
-<figure/5_service_discovery_overhead-eps-converted-to.pdf, id=160, 587.19376pt 
+<figure/5_service_discovery_overhead-eps-converted-to.pdf, id=155, 587.19376pt 
 x 442.65375pt>
 File: figure/5_service_discovery_overhead-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -583,7 +580,7 @@ overhead-eps-converted-to.pdf figure/6_service_discovery_overhead.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 
-<figure/6_service_discovery_overhead-eps-converted-to.pdf, id=161, 587.19376pt 
+<figure/6_service_discovery_overhead-eps-converted-to.pdf, id=156, 587.19376pt 
 x 442.65375pt>
 File: figure/6_service_discovery_overhead-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -593,9 +590,6 @@ df used on input line 10.
 (pdftex.def)             Requested size: 253.04987pt x 190.75616pt.
 )
 (E:\GitHub\ICN2015\conclusion.tex) (E:\GitHub\ICN2015\main.bbl
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package balance Warning: You have called \balance in second column
 (balance)                Columns might not be balanced.
@@ -604,54 +598,46 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2 \begin{thebibliography}{10}
-                                [6 <E:/GitHub/ICN2015/figure/pub_sub.png> <E:/G
-itHub/ICN2015/figure/5_service_discovery_overhead-eps-converted-to.pdf>])
+l.36 
+      [6 <E:/GitHub/ICN2015/figure/pub_sub.png>])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.47 \end{document}
-                    [7 <E:/GitHub/ICN2015/figure/6_service_discovery_overhead-e
-ps-converted-to.pdf>]
+                    [7 <E:/GitHub/ICN2015/figure/5_service_discovery_overhead-e
+ps-converted-to.pdf> <E:/GitHub/ICN2015/figure/6_service_discovery_overhead-eps
+-converted-to.pdf>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
  (E:\GitHub\ICN2015\main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2954A4651DB480F66D207792B72E5394;913.
-
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: A27E820EAF61EFE2BD049B364B8DCCEC;896.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 2 ({)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 7457 strings out of 493921
- 119722 string characters out of 3144873
- 218504 words of memory out of 3000000
- 10587 multiletter control sequences out of 15000+200000
+ 7451 strings out of 493921
+ 119653 string characters out of 3144873
+ 206504 words of memory out of 3000000
+ 10584 multiletter control sequences out of 15000+200000
  40681 words of font info for 76 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 42i,7n,38p,2212b,395s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.
-enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pf
-b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
-type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (7 pages, 409121 bytes).
+ 42i,7n,38p,2211b,455s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
+s/utmri8a.pfb>
+Output written on main.pdf (7 pages, 409233 bytes).
 PDF statistics:
- 300 PDF objects out of 1000 (max. 8388607)
- 42 named destinations out of 1000 (max. 500000)
+ 293 PDF objects out of 1000 (max. 8388607)
+ 39 named destinations out of 1000 (max. 500000)
  158 words of extra memory for PDF output out of 10000 (max. 10000000)
 

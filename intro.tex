@@ -37,7 +37,7 @@ NDN~\cite{zhang2014named} provides a receiver-driven architecture by transmittin
 \subsection{MobilityFirst (MF)}\label{sec:intro_mf}
 MF~\cite{raychaudhuri2012mobilityfirst} utilizes GUID to name every network object, while separating this GUID from its actual network address. This identifier(GUID)/locator(network address) split design allows MF supporting dynamic address binding, multiple addressing binding and late binding. Shown as Figure ~\ref{fig:mf_arch}, MF core network architecture includes the following network component.
 
-\vspace{1mm}\noindent{\bf Global Name Resolution Service(GNRS)}: GNRS is a centralized service that maintains mappings between GUID and network address. MF routers create the entries by performing an insert for the GUIDs of attached network devices and the associated network address, and query GNRS for a translation from GUID to the latest binding network address. Recent work shows that this translation performance is much better (50-100 ms delay) than DNS resolution~\cite{vu2012dmap}.
+\vspace{1mm}\noindent{\bf Global Name Resolution Service(GNRS)}: GNRS is a centralized service that maintains mappings between GUID and network address. MF routers create the entries by performing an $Insert$ for the GUIDs of attached network devices and the associated network address, and query GNRS for a translation from GUID to the latest binding network address. Recent work shows that this translation performance is much better (50-100 ms delay) than DNS resolution~\cite{vu2012dmap}.
 
 \vspace{1mm}\noindent{\bf Hybrid GUID/NA address routing}: Each of the router in MF can make routing decision based on NA or GUID in the header of data packet, since routing decision are made on a hop-by-hop manner~\cite{nelson2011gstar}.
 

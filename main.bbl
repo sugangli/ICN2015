@@ -21,12 +21,6 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{alljoyn}
-``Alljoyn,'' \url{https://allseenalliance.org/developers/learn}, 2014.
-
-\bibitem{iotivity}
-``Iotivity,'' \url{https://www.iotivity.org/about}, 2014.
-
 \bibitem{amadeo2014multi}
 M.~Amadeo, C.~Campolo, and A.~Molinaro, ``Multi-source data retrieval in iot
   via named data networking,'' in \emph{Proceedings of the 1st international
@@ -45,10 +39,6 @@ J.~Chen, M.~Arumaithurai, L.~Jiao, X.~Fu, and K.~Ramakrishnan, ``Copss: An
   efficient content oriented publish/subscribe system,'' in \emph{Seventh
   ACM/IEEE Symposium on Architectures for Networking and Communications Systems
   (ANCS), 2011}.
-
-\bibitem{harney1997group}
-H.~Harney and C.~Muckenhirn, ``Group key management protocol (gkmp)
-  architecture,'' 1997.
 
 \bibitem{hui2008ip}
 J.~W. Hui and D.~E. Culler, ``Ip is dead, long live ip for wireless sensor
