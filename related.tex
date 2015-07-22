@@ -1,12 +1,20 @@
 \section{Related Work}
 \label{sec:related}
 
-ICN is a clean-slate architecture whose objectives align with the networking and application requirement of Internet of Things. Previous studies by Zhang Y. et al~\cite{zhang2013icn} and Li S. et al~\cite{li2014comparative} summarize the benefits that the ICN network is able to bring to IoT, including efficient data retrieval, good support of mobility, naming, scalability and security. Driven by the same vision, earlier studies have demonstrated the feasibility of ICN on supporting specific IoT applications. For example, the study by Amadeo et al. in~\cite{amadeo2014multi} provides a solution to efficient multi-source data retrieval. It proposes to use a single Interest packet to retrieve multiple data with different suffixes from different locations by adjusting the traditional NDN protocol to support ``prefix-based'' interests. For example, suppose a subscriber is interested in the resource named ``/office/temperature'', which includes  information from multiple sensors deployed in his office. At the same time, temperature sensors should advertise their resource with this prefix and their own suffix (e.g sensor in the conference room should be named ``/office/temperature/conferenceroom''). Hence, the subscriber can issue a single interest to retrieve multiple resources simultaneously.
+ICN is a clean-slate architecture whose objectives align with the networking and application requirements of Internet of Things. Previous studies by Zhang Y. et al~\cite{zhang2013icn} and Li S. et al~\cite{li2014comparative} have pointed out that the ICN network is able to bring great benefits for IoT applications, 
+%summarize the benefits that the ICN network is able to bring to IoT, 
+including efficient data retrieval,  and good support of mobility, naming, scalability and security. Driven by the same vision, other studies also have demonstrated the feasibility of ICN on supporting specific IoT applications. For example, the study by Amadeo et al. ~\cite{amadeo2014multi} provides a solution for efficient multi-source data retrieval, by 
+% It proposes to 
+using a single Interest packet to retrieve multiple data with different suffixes from different locations, which greatly enhances 
+%by adjusting
+the traditional NDN protocol to support  ``prefix-based''  Interest. 
+%For example, 
+Suppose a subscriber is interested in the resource named ``/office/temperature'', which is  to gather  information from multiple sensors deployed in his office.Meanwhile, temperature sensors can advertise their resource with this prefix and their own suffix (e.g sensor in the conference room should be named ``/office/temperature/conferenceroom''). To this end, the subscriber can issue a single Interest to retrieve multiple resources simultaneously.
 
 
 George et al.~\cite{polyzos2015building} proposes a Publish-Subscribe Internetworking ICN architecture
 where identifiers can be used to represent a thing, an application, a group of similar things, or any contextual specific entity in the network. A Rendezvous Node functions as a middle box where advertisements from publishers and subscription requests from subscribers can meet to form a membership.
 
 
-There are also studies that implement IoT systems over the ICN architecture. In the study by Shang et al. in~\cite{shang2014securing}, a practical use case that integrates NDN with a Building Management System (BMS). It shows that human-readable hierarchical naming scheme brings convenience in configuring and managing a large number of BACnet devices. Baccelli et al.~\cite{baccelli2014information} reports a CCN experiment  over a deployed IoT system, in which they ported light-weight CCN-lite code over RIOT operating system. Based on this platform, the authors measured the performance of various routing protocols and the usefullness of caching.
+There are also some studies that implement IoT systems over the ICN architecture. The study by Shang et al. ~\cite{shang2014securing}, shows a practical use case of  integrating NDN with a Building Management System (BMS). It shows that human-readable hierarchical naming scheme can bring great convenience in configuring and managing a large number of BACnet devices. Baccelli et al.~\cite{baccelli2014information} reports a CCN experiment  over a deployed IoT system, in which they ported light-weight CCN-lite code over RIOT operating system. Based on this platform, the authors measured the performance of various routing protocols and the usefullness of caching.
 
