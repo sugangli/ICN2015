@@ -1,12 +1,19 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.21)  22 SEP 2015 15:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.30)  22 SEP 2015 16:45
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **main.tex
-(./main.tex
+(E:\GitHub\ICN2015\main.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
-(./IEEEtran.cls
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+(E:\GitHub\ICN2015\IEEEtran.cls
 Document Class: IEEEtran 2012/11/21 V1.8c by Harald Hanche-Olsen and Anders Chr
 istensen
 -- Based on V1.7a by Michael Shell
@@ -19,7 +26,7 @@ istensen
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 373.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -92,31 +99,31 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \@IEEEtmpitemindent=\dimen116
 \c@IEEEbiography=\count90
 \@IEEEtranrubishbin=\box26
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count91
@@ -124,24 +131,24 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen117
 \Gin@req@width=\dimen118
 )
-(/usr/share/texlive/texmf-dist/tex/latex/preprint/balance.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\preprint\balance.sty"
 Package: balance 1999/02/23 4.3 (PWD)
 \oldvsize=\dimen119
 )
-(/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\comment\comment.sty"
 \CommentStream=\write3
 
 Excluding comment 'comment')
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\times.sty"
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 \epsfxsize=\dimen120
 \epsfysize=\dimen121
 )
-(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
-Package: subfigure 2002/03/15 v2.1.5 subfigure package
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip44
 \subfigcapskip=\skip45
 \subfigcaptopadj=\dimen122
@@ -156,28 +163,28 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
 \subfig@top=\skip48
 \subfig@bottom=\skip49
 )
-(/usr/share/texlive/texmf-dist/tex/latex/endnotes/endnotes.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\endnotes\endnotes.sty"
 \c@endnote=\count96
 \endnotesep=\dimen124
 \@enotes=\write4
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/paralist/paralist.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\paralist\paralist.sty"
 Package: paralist 2013/06/09 v2.4 Extended list environments
 \pltopsep=\skip50
 \plpartopsep=\skip51
@@ -185,10 +192,10 @@ Package: paralist 2013/06/09 v2.4 Extended list environments
 \plparsep=\skip53
 \pl@lab=\toks16
 )
-(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen125
 )
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count97
 \float@exts=\toks17
@@ -196,28 +203,28 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks18
 \@floatcapt=\box28
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -226,11 +233,11 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -243,15 +250,11 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-)))
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen126
@@ -281,9 +284,7 @@ fil }\else \hbox to\hsize {\normalfont \footnotesize \box \@tempboxa \hfil }\fi
 \c@ContinuedFloat=\count98
 Package caption Info: float package is loaded.
 Package caption Info: subfigure package is loaded.
-) (./main.aux)
-\openout1 = `main.aux'.
-
+) (E:\GitHub\ICN2015\main.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
@@ -296,7 +297,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
- (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count99
 \scratchdimen=\dimen133
@@ -325,32 +327,33 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 35.
- (./intro.tex
+ (E:\GitHub\ICN2015\intro.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 16.
- <figure/middleware_architecture.png, id=1, 722.7pt x 542.025pt>
+
+<figure/middleware_architecture.png, id=1, 722.7pt x 542.025pt>
 File: figure/middleware_architecture.png Graphic file (type png)
 
 <use figure/middleware_architecture.png>
 Package pdftex.def Info: figure/middleware_architecture.png used on input line 
 40.
 (pdftex.def)             Requested size: 253.04987pt x 189.78603pt.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+ [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
 Package epstopdf Info: Source file: <figure/mf_arch.eps>
-(epstopdf)                    date: 2015-06-18 13:58:55
-(epstopdf)                    size: 225262 bytes
+(epstopdf)                    date: 2015-07-08 15:39:56
+(epstopdf)                    size: 231823 bytes
 (epstopdf)             Output file: <figure/mf_arch-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-06-18 13:58:55
+(epstopdf)                    date: 2015-07-08 15:39:56
 (epstopdf)                    size: 36310 bytes
-(epstopdf)             Command: <repstopdf --outfile=figure/mf_arch-eps-convert
-ed-to.pdf figure/mf_arch.eps>
+(epstopdf)             Command: <epstopdf --outfile=figure/mf_arch-eps-converte
+d-to.pdf figure/mf_arch.eps>
 (epstopdf)             \includegraphics on input line 66.
 Package epstopdf Info: Output file is already uptodate.
 
-<figure/mf_arch-eps-converted-to.pdf, id=14, 693.59125pt x 410.53375pt>
+<figure/mf_arch-eps-converted-to.pdf, id=13, 693.59125pt x 410.53375pt>
 File: figure/mf_arch-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figure/mf_arch-eps-converted-to.pdf>
@@ -358,21 +361,23 @@ Package pdftex.def Info: figure/mf_arch-eps-converted-to.pdf used on input line
  66.
 (pdftex.def)             Requested size: 253.04987pt x 149.77779pt.
 
-<figure/multicast.png, id=15, 454.19687pt x 272.51813pt>
+<figure/multicast.png, id=14, 454.19687pt x 272.51813pt>
 File: figure/multicast.png Graphic file (type png)
 
 <use figure/multicast.png>
 Package pdftex.def Info: figure/multicast.png used on input line 74.
 (pdftex.def)             Requested size: 253.04987pt x 151.8315pt.
-) (./related.tex [2 <./figure/middleware_architecture.png> <./figure/mf_arch-ep
-s-converted-to.pdf>]) (./system.tex
-<figure/physical_comp.png, id=31, 366.36874pt x 315.1775pt>
+) (E:\GitHub\ICN2015\related.tex [2 <E:/GitHub/ICN2015/figure/middleware_archit
+ecture.png> <E:/GitHub/ICN2015/figure/mf_arch-eps-converted-to.pdf>]) (E:\GitHu
+b\ICN2015\system.tex
+<figure/physical_comp.png, id=30, 366.36874pt x 315.1775pt>
 File: figure/physical_comp.png Graphic file (type png)
 
 <use figure/physical_comp.png>
 Package pdftex.def Info: figure/physical_comp.png used on input line 7.
 (pdftex.def)             Requested size: 253.04987pt x 217.69392pt.
- [3 <./figure/multicast.png> <./figure/physical_comp.png>]
+ [3 <E:/GitHub/ICN2015/figure/multicast.png> <E:/GitHub/ICN2015/figure/physical
+_comp.png>]
 Underfull \hbox (badness 1454) in paragraph at lines 121--130
 \OT1/ptm/m/n/10 The key to ser-vice dis-cov-ery is to ex-pose ag-gre-ga-tor's
  []
@@ -387,7 +392,7 @@ Underfull \hbox (badness 2689) in paragraph at lines 121--130
 \OT1/ptm/m/n/10 ag-gre-ga-tor broad-casts an in-ter-est us-ing the well-known
  []
 
-[4] <figure/service_discovery.png, id=40, 475.7775pt x 247.67531pt>
+[4] <figure/service_discovery.png, id=39, 475.7775pt x 247.67531pt>
 File: figure/service_discovery.png Graphic file (type png)
 
 <use figure/service_discovery.png>
@@ -398,27 +403,27 @@ Underfull \hbox (badness 4132) in paragraph at lines 201--204
 []\OT1/ptm/m/n/10 Secondly, we need to have means to ex-pose sen-
  []
 
-[5 <./figure/service_discovery.png>]
-<figure/pub_sub.png, id=46, 433.11812pt x 280.04625pt>
+[5 <E:/GitHub/ICN2015/figure/service_discovery.png>]
+<figure/pub_sub.png, id=45, 433.11812pt x 280.04625pt>
 File: figure/pub_sub.png Graphic file (type png)
 
 <use figure/pub_sub.png>
 Package pdftex.def Info: figure/pub_sub.png used on input line 237.
 (pdftex.def)             Requested size: 253.04987pt x 163.61914pt.
-) (./evaluation.tex
+) (E:\GitHub\ICN2015\evaluation.tex
 Package epstopdf Info: Source file: <figure/service_discovery_overhead.eps>
-(epstopdf)                    date: 2015-07-14 19:35:56
-(epstopdf)                    size: 37575 bytes
+(epstopdf)                    date: 2015-07-14 19:36:54
+(epstopdf)                    size: 39807 bytes
 (epstopdf)             Output file: <figure/service_discovery_overhead-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2015-09-20 13:45:34
+(epstopdf)                    date: 2015-07-14 20:00:41
 (epstopdf)                    size: 20919 bytes
-(epstopdf)             Command: <repstopdf --outfile=figure/service_discovery_o
-verhead-eps-converted-to.pdf figure/service_discovery_overhead.eps>
+(epstopdf)             Command: <epstopdf --outfile=figure/service_discovery_ov
+erhead-eps-converted-to.pdf figure/service_discovery_overhead.eps>
 (epstopdf)             \includegraphics on input line 3.
 Package epstopdf Info: Output file is already uptodate.
 
-<figure/service_discovery_overhead-eps-converted-to.pdf, id=47, 587.19376pt x 4
+<figure/service_discovery_overhead-eps-converted-to.pdf, id=46, 587.19376pt x 4
 42.65375pt>
 File: figure/service_discovery_overhead-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -427,7 +432,7 @@ Package pdftex.def Info: figure/service_discovery_overhead-eps-converted-to.pdf
  used on input line 3.
 (pdftex.def)             Requested size: 253.04987pt x 190.75616pt.
 
-<figure/topology.png, id=48, 271.51437pt x 211.28937pt>
+<figure/topology.png, id=47, 271.51437pt x 211.28937pt>
 File: figure/topology.png Graphic file (type png)
 
 <use figure/topology.png>
@@ -435,35 +440,38 @@ Package pdftex.def Info: figure/topology.png used on input line 8.
 (pdftex.def)             Requested size: 253.04987pt x 196.9291pt.
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 11.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
- [6 <./figure/pub_sub.png>]) (./conclusion.tex) (./main.bbl [7 <./figure/servic
-e_discovery_overhead-eps-converted-to.pdf> <./figure/topology.png>]) [8
+ [6 <E:/GitHub/ICN2015/figure/pub_sub.png>]) (E:\GitHub\ICN2015\conclusion.tex)
 
-] (./main.aux) ) 
+(E:\GitHub\ICN2015\main.bbl [7 <E:/GitHub/ICN2015/figure/service_discovery_over
+head-eps-converted-to.pdf> <E:/GitHub/ICN2015/figure/topology.png>]) [8
+
+]
+(E:\GitHub\ICN2015\main.aux) ) 
 Here is how much of TeX's memory you used:
- 3929 strings out of 493304
- 64576 string characters out of 6139870
- 137711 words of memory out of 5000000
- 7304 multiletter control sequences out of 15000+600000
- 40681 words of font info for 76 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
- 42i,7n,38p,2270b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
-w/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (8 pages, 363106 bytes).
+ 3924 strings out of 493921
+ 64995 string characters out of 3144873
+ 133824 words of memory out of 3000000
+ 7135 multiletter control sequences out of 15000+200000
+ 40681 words of font info for 76 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 42i,7n,38p,2270b,306s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvip
+s/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+sy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (8 pages, 374115 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 128 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
