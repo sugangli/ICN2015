@@ -5,7 +5,7 @@ In contrast to centralized or overlay-based implementation in the legacy IP-base
 %In legacy IP-based IoT platform, these functionalities are almost implemented on a centralized server, or over-lay application. In our ICN-IoT middleware architecture, they are pushed down to distributed components which can form a self-configuring subsystem to provide local service as well as a complete system that enables global communication.
 \begin{figure}
 \includegraphics[width=\columnwidth]{figure/physical_comp.png}
-\caption{\label{fig:phy}Physical components of ICN-IoT middleware}
+\caption{\label{fig:phy}System Architecture of ICN-IoT middleware}
 \end{figure}
 
 \subsection{System Architecture}\label{sec:physical}
@@ -30,41 +30,186 @@ The proposed architecture has the following four main system components:
 
 In the following subsections, we will discuss the functionality for each system component (as shown in Figure~\ref{fig:phy}) and present detailed protocol design considering NDN and MF.
 
-\subsection{Device Discovery}
-The objective of device discovery is to establish connection for nodes in proximity. Device discovery is a key component of any IoT system, and can be considerably simplified by the ICN network. In today's IoT systems, the IP overlay implementation requires a name translation service to maintain the mapping from network addresses to physical attributes, which often involves manual configuration. In ICN-IoT, however, device discovery does not involve any manual configuration or name translation because ICN directly uses names to discover new devices. In what follows, we explain the ICN-IoT device discovery  in detail, including both devices that are able to run  full-stack protocols (referred to as \emph{resource-rich sensors}) and devices that are unable to do so (referred to as \emph{resource-constrained sensors}).
+\subsection{Device and Network Service Discovery}
+Device discovery is a key component of any IoT system.  The objective
+of device discovery is to expose new devices to the rest of the IoT
+system -- every entity should be exposed to its direct upstream
+device and possibly other devices.  Specifically, it includes the
+following three aspects: (1) a newly-added sensor should be exposed
+to its aggregator, and possibly to its LSG and the IoT server; (2) a
+newly-added aggregator is exposed to its LSG, and possibly to its
+neighbor aggregators; and (3) a newly-added LSG should be exposed to
+the IoT server.  We note that device discovery could be used in other
+contexts, such as neighboring sensors discovering each other to form
+routing paths, but in this draft, we use the term to specifically
+mean discovering new devices for IoT middleware purpose.
 
-\vspace{1mm}\noindent{\bf Resource-rich sensors}: Many a resource-rich sensor comes with a manufacture secure ID and model name, which needs to be exposed to both the aggregator and LSG to facilitate device discovery. This aim can be achieved by different means with respect to NDN and MF.  In NDN, this process is initiated by the configuration service running on LSG, which periodically broadcasts discovery Interests (using the name $/iot/model$). The new sensor replies to the discovery interest with its information, and the configuration service then registers the sensor and generates a local ICN name for the sensor. In MF, we can set $group$-$GUID$ as the destination address, and the configuration service issues a request via multicasting. When receiving such request, the new device replies with the manufacture secure ID, and the configuration service registers the device and  generates a local ICN name for it.
+During device discovery for newly-added sensors, the sensor passes
+its device-level information (such as manufacture ID and model
+number) and application-level information (such as service type and
+data type) to the upstream devices.  If the sensor is to have an ICN
+name, the name is assigned by the naming service (described in
+Section ~\ref{sec:naming}), and recorded by both the LSG and the aggregator (and possibly the IoT server).
 
+ICN enables flexible and context-centric device discovery which is
+important in IoT ecosystem where heterogeneous IoT systems belonging
+to different IoT services may co-exist.  Contextualization is a
+result of name-based networking where different IoT services can
+agree on unique multicast names that can be pre-provisioned in end
+devices and the network infrastructure using the routing control
+plane.  This also has an advantage of localizing device discovery to
+regions of network relevant to an ICN service, also enabling certain
+level of IoT asset security.  In contrast IP offers no such natural
+IoT service mapping; any forced mapping of this manner will entail
+high configuration cost both in terms of device configuration, and
+network control and forwarding overhead.
 
-\vspace{1mm}\noindent{\bf Resource-constrained sensors}: Many resource-constrained sensors connect to the Internet using the IEEE 802.15.4 technology via a border router~\cite{hui2008ip}. These sensors voluntarily discover each other in proximity and establish forwarding paths to the border router by self-organizing into a mesh network. Similarly, for our ICN-IoT middleware,  Aggregator acts as a border router, and neighbor discovery among sensors can be achieved differently with respect to NDN and MF as follows. In NDN, when a new sensor arrives, it broadcasts a neighbor discovery message to connect with neighbors. After establishing connectivity with neighboring sensors, it broadcasts an Interest named $/ndn/aggregatorservice$ to discover the Aggregator. In MF, neighbor discovery is naturally supported, and the new sensor simply needs to send a discovery request to a well-known broadcast GUID to discover the Aggregator. %On receiving, the destination Aggregator receives the request and registers the new device if there is matched service name.
-The above process is shown as Figure~\ref{fig:device_dis}
-%\footnote{This figure is for either NDN or MF, or both?  The similar question for Figure 6}.
+In the device discovery phase, sensors expose their information, such
+as its manufacture secure ID and model name, to the upstream
+aggregators pulling information from sensors.  There are two ways of
+achieving this aim: (1) sensors pushing the information towards the
+aggregators, and (2) aggregators pulling the information from
+sensors.  In both NDN and MF, the pulling method is used.  In NDN,
+this process is initiated by the configuration service running on LSG, which periodically broadcasts discovery Interests (using the
+name /iot/model).The new sensor replies to the discovery interest
+with its information, and the configuration service then registers
+the sensor and generates a local ICN name for the sensor.  In MF, we
+can set group-GUID as the destination address, and the configuration
+service issues a request via multicasting.  When receiving such
+request, the new device replies with the manufacture secure ID, and
+the configuration service registers the device and generates a local
+ICN name for it.
+
+LSG, which periodically broadcasts discovery Interests (using the
+name /iot/model).The new sensor replies to the discovery interest
+with its information, and the configuration service then registers
+the sensor and generates a local ICN name for the sensor.  In MF, we
+can set group-GUID as the destination address, and the configuration
+service issues a request via multicasting.  When receiving such
+request, the new device replies with the manufacture secure ID, and
+the configuration service registers the device and generates a local
+ICN name for it.
+
+The network service discovery for IoT infrastructure service like
+naming, gateway, or context-processing service is hosted on LSGs or
+Aggregators.  These devices periodically broadcast their services,
+which will be responded to by sensors that need these services.
+Please note that only those sensors that need naming service or
+context processing service will respond.  The detailed process is
+very similar to that involved in the device discovery (which is described above).
+
+\iffalse
 \begin{figure}
 \includegraphics[width=\columnwidth]{figure/device_discovery.png}
 \caption{\label{fig:device_dis}Device discovery for resource-constrained sensor}
 \end{figure}
+\fi
 
 
+\subsection{Service Discovery}
+Service discovery intends to learn IoT services that are hosted by
+one aggregator by its neighbor aggregators.  The requirements include
+low protocol overhead (including low latency and low control message
+count), and discovery accuracy.
 
-\subsection{IoT Service Discovery}
+In today's IoT platforms, sensors, aggregators and LSGs are connected
+via IP multicast, which involves complicated group management and
+multicast name to IP translation service.  Multicast, however, is
+greatly simplified in ICN as most ICN architectures have natural
+support for multicast.
 
+Below, we explain how service discovery is implemented.  The key to
+service discovery is to expose aggregator's services to its neighbor
+aggregators.  How this is implemented differs in NDN and MF.  In NDN,
+the source aggregator broadcasts an interest using the well-known
+name $/area/servicename/certificate$, which will eventually reach the
+destination aggregator.  NDN's Interest/Data mechanisms allows only
+one response for each Interest send while discovery requires to learn
+multiple entities, hence efficient discovery is realized using
+exclusion via Selectors in the protocol or as an overlay protocol~\cite{ravindran2013information}.
+
+In MF, after establishing the multicast group, the source aggregator sends a
+request containing the service name and certificate to the multicast
+group.  The destination aggregator that hosts the service checks the
+certificate and registers the source Aggregator if there is a matched
+service.  It replies with an acknowledgment containing certificate to
+the source aggregator.
+
+For secure service discovery, a secured name needs to assigned to the
+service host.  Especially in MF IoT, secured group GUID is utilized
+to realize service request multicast, which may be owned by multiple
+hosts, hence conventional public/private key scheme may not be
+suitable for this case.  As an alternative, group key management
+protocol (GKMP) ~\cite{harney1997group} can be adopted to resolved the issue above -- A
+naming service residing at LSG or IoT server (depending on
+application scope) generates a group public key that used as group
+GUID for a service, then this group public/private keys pair is
+assigned to each Aggregator that host this service.  The service host
+Aggregator in the group then listen on this group GUID, and use the
+group private key to decrypt the incoming discovery message.
+Finally, we note that this form of secure service discovery is
+difficult for NDN.
+
+As an example of NDN smart home, a thermostat expresses a request to
+discover a AC service using well-known name $/home/ac/certificate$ via
+broadcast channel.  In MF case, a multicast group GUID 1234 can be
+assigned to all home appliance IoT service.  The thermostat sends
+request containing the service name and certificate to 1234.  In both
+cases, the AC hosting this services replies with acknowledgment if
+all conditions match.
+\begin{figure}
+\includegraphics[width=\columnwidth]{figure/service_discovery.png}
+\caption{\label{fig:ser_dis}Peer-to-peer service discovery**LS: need to redraw**}
+\end{figure}
+\iffalse
 IoT services can be generally categorized into two classes: sensing and actuating. In today's IP based IoT platforms, sensors are connected via a server, which requires considerable development effort such as maintaining a local name to IP mapping. In ICN-IoT, IoT service discovery and configuration becomes much simpler. Specifically, we consider two service discovery modes: $peer$-$to$-$peer$ and $master$-$slave$.
 
 
 \vspace{1mm}\noindent{\bf Peer-to-peer Service Discovery}: In this mode, we consider the scenario in which an aggregator (referred to as the source aggregator) tries to discover an IoT service provided by another peer aggregator (referred to as destination aggregator). In NDN, the source aggregator broadcasts an interest using the well-known name $/area/servicename/certificate$, which will eventually reach the destination aggregator. NDN's Interest/Data mechanisms allows only one response for each Interest send while discovery requires to learn multiple entities, hence efficient discovery is realized by using exclusion via Selector in the protocol or as an overlay protocol~\cite{ravindran2013information}. In MF, this is handled by multicast (discussed in Section~\ref{sec:intro_mf}) instead of flooding the entire local network. All sensors that provide relevant services can join the multicast group identified by a $Group$-$GUID$. After establishing the multicast group, the source aggregator sends a request containing the service name and certificate to the multicast group.The destination aggregator that hosts the service checks the certificate and registers the source Aggregator if there is a matched service. It replies with an acknowledgement containing its certificate to the source aggregator. The message flow is shown as Figure~\ref{fig:ser_dis}.
-\begin{figure}
-\includegraphics[width=\columnwidth]{figure/service_discovery.png}
-\caption{\label{fig:ser_dis}Peer-to-peer service discovery}
-\end{figure}
+
 For an example of NDN smart home, a thermostat expresses a request to discover the air conditioning (AC) service using well-known name $/home/ac/certificate$ via broadcast channel. In MF case, a multicast group GUID $1234$ can be assigned to all home appliance IoT service. The thermostat sends request containing the service name and certificate to $1234$. In both cases, the AC hosting this services replies with acknowledgement if all conditions match.
 
 \vspace{1mm}\noindent{\bf Master-slave Service Discovery}: In some IoT applications, there are more than one sensing service or actuating service connecting to one control service. A source aggregator hosting control service expresses a request with the service name and the  certificate to discover a service from all  available aggregators. By verifying the certificate, the destination aggregators  register the source aggregator and  answer with acknowledgement containing their certificates if the certificate is valid and there exists a matched service.
 
 In the AC control NDN example, the number of AC service provider increases to three, which can be named as $/office/ac/1$, $/office/ac/2$ and $/office/ac/3$ . The thermostat expresses a partial name $/office/ac/certificate$ via a broadcast channel periodically. In the MF case, a multicast group GUID $1234$ can be assigned to identify AC service. The thermostat sends request with service name and certificate to $1234$. The destination ACs reply with their certificates if the request meets all criteria.
-\subsection{Data Aggregation and Context Data Processing}
-Compare to traditional communication networks, IoT networks introduce redundant low-rate data, and many-to-one data flow. Thus, data aggregation is necessary in this setting for energy and bandwidth efficient message flow. Moreover, context information such as time and device location, can be used towards processing logic. Note that context processing is application-centric, hence specific data processing logic depends on the specific IoT application. Aggregator provides first level redundant data filtering from the attached sensors, and adapts the data to heterogeneous application requirement. At the next level component, LSG supports domain-based context processing based on location and device type.
+\fi
 
-\subsection{Device/App Naming service}
+\subsection{Data Aggregation and Context Data Processing}
+In order to facilitate context-aware communication and data
+retrieval, we need to support context processing in the IoT system.
+The objective of context processing is to expose the sensor's low-
+level context information to upstream aggregators and LSGs, as well
+as to resolve the application's high-level context requirements using
+lower-level sensor contexts.  The context processing service usually
+runs on both aggregators and LSGs.
+
+Context processing requires the underlying network to be able to
+support in-network computing at both application and network levels.
+ICN inherently supports in-networking computing and caching, which
+thus offers unique advantages compared to traditional IP network
+where the support for in-network computing and caching is poor.
+
+Application level contexts differ from application to application,
+and therefore, we need to provide a set of basic mechanisms to
+support efficient context processing.  Firstly, the network needs to
+define a basic set of contextual attributes for devices (including
+sensors, aggregators, and LSGs), including device-level attributes
+(such as location, data type, battery level, etc), network-level
+attributes (such as ICN names), and service-level attributes (such as
+max, min, average, etc).
+
+Secondly, we need to have means to expose sensor/aggregator/LSG
+contextual attributes to the rest of the system, through centralized
+services such as naming resolution service.
+
+Thirdly, the IoT server needs to allow applications (either producers
+or consumers) to specify their contextual requirements.  Fourthly,
+the unconstrained part of ICN-IoT needs to be able to map the higher-
+level application-specific contextual requirements to lower-level
+device-level and network-level contextual information.
+
+
+\subsection{Device/App Naming service}\label{sec:naming}
 Naming service is an important function especially for ICN-IoT due to its naming feature. Basically, naming service is responsible for assigning ICN names to the devices and services when the devices are connected to the network or the Apps are deployed in the network environment, and providing name lookup/resolution if necessary. In addition, it is essentailly important to secure the naming service because unprotected (or insecure) naming service might open the door to potential attacks, such as sybil (or spoofing) attack \cite{sybil} with forged names.
 
 In what follows, let us consider the approach of building secure naming service in ICN-IoT. Suppose that the device (i.e., sensor) can be either programmable so that before deployment the owner can pre-load some identity information (such as secure ID, a pair of public/private key and a certificate) , or has some manufacture ID and a pair of public/private key (which is certified by the manufacturer). That is, the device is associated with some information including device identity, public/private keys ($PK_{device}, SK_{device}$) and a certificate either from the owner or the manufacturer that certifies the device identity and public/private keys. For the ICN-IoT middleware on top of NDN, when discovering a device, the aggregator will first verify the device identity (e.g., the device can generate a signature with the private key $SK_{device}$ and present the signature and the certificate to the aggregator so that the aggregator can verify it), and then assign an ICN name to the device as follows: the aggregator will issue a request to LSG together with its device identity and $PK_{device}$, so that LSG can assign an ICN name and generate a certificate (certifying the binding of ICN name, $PK_{device}$). To this end, the ICN name and the certificate will be sent back to the aggregator and will be stored locally if the device is resource-restricted. Otherwise, the ICN name and the certificate will be passed to the device. We note that through this process, ICN name is tightly binding with the device so that sybil attack cannot work. For the MF-IoT, assigning a network name (GUID) for a device is rather straightforward: after verifying the device identity, the Aggregator
@@ -77,16 +222,22 @@ In the case where devices are only associated with the secure manufacture ID whi
 
 
 \subsection{Publish/Subscribe Management}
-Data Publish/Subscribe (Pub/Sub) is an important function for ICN-IoT, and is responsible for resource sharing and management. In conventional IP network, most  IoT platforms provide a centralized server to aggregate all IoT services and data. While
-%resource is published as service,
-this centralized architecture ensures high availability, it scales poorly and has high bandwidth consumption due to high volume of control/data exchange by a central server. Thus, we consider a decentralized pub/sub model in ICN-IoT middleware. Specifically, we will discuss rendezvous mode and a data-control separation mode.
+Data Publish/Subscribe (Pub/Sub) is an important function for ICN-IoT, and is responsible for IoT information resource sharing and management. The objective of pub/sub system is to provide centralized membership management service. Efficient pub/sub management poses two main requirements to the underlying system: high data availability and low network bandwidth consumption.
 
-\vspace{1mm}\noindent{\bf Rendezvous Mode}: Rendezvous mode is a classic pub/sub scheme in which data and requests meet at an intermediate node with assistance from a IoT server. While NDN is a Pull-based architecture without supporting the Pub/Sub mode naturally,  COPSS~\cite{chen2011copss} proposes a solution to fix this problem. It integrates a Push-based multicast feature with the pull based NDN architecture at the network layer by introducing Rendezvous Node (RN). RN is a logical entity that resides in NDN forwarder. The publisher first forwards a Content Descriptor (CD) as a snapshot to the RN. RN maintains a subscription table, and receives the Subscription message from subscribers. The data publisher just sends the content using Publish packet by looking up FIB instead of PIT. If the same content prefix is requested by multiple subscribers, RN will deliver one copy  of content downstream, which reduces the bandwidth consumption substantially.
+In conventional IP network, most of the IoT platforms provide a centralized server to aggregate all IoT service and data. While this centralized architecture ensures high availability, it scales poorly and has high bandwidth consumption due to high volume of control/data exchange, and poor support of multicast.
+
+Next we consider two decentralized pub/sub models.  The first one is the Rendezvous mode that is commonly used for today's pub/sub servers, and the second one involves Data-Control separation that is unique to ICN networks where the control messages are handled by the centralized IoT server and the data messages are handled by the underlying ICN network.  Compared to the popular Rendezvous mode where both control and data messages both meet at the centralized
+server, separating data and control messages can greatly improve the scalability of the entire system, which is enabled by the ICN network.
+
+In today's IP network, Rendezvous mode is the classic pub/sub scheme in which data and requests meet at an intermediate node.  In this case the role of the IoT server is only required to authenticate the consumers and providing it Rendezvous service ID.
+
+While NDN is a Pull-based architecture without supporting the Pub/Sub mode naturally,  COPSS~\cite{chen2011copss} proposes a solution to fix this problem. It integrates a Push-based multicast feature with the pull based NDN architecture at the network layer by introducing Rendezvous Node (RN). RN is a logical entity that resides in NDN forwarder. The publisher first forwards a Content Descriptor (CD) as a snapshot to the RN. RN maintains a subscription table, and receives the Subscription message from subscribers. The data publisher just sends the content using Publish packet by looking up FIB instead of PIT. If the same content prefix is requested by multiple subscribers, RN will deliver one copy  of content downstream, which reduces the bandwidth consumption substantially.
 
 \begin{figure}
 \includegraphics[width=\columnwidth]{figure/pub_sub.png}
 \caption{\label{fig:pubsub}Publish/subscriber management message flow}
 \end{figure}
-\vspace{1mm}\noindent{\bf Data-control separation Mode}: Compared with the Rendezvous mode in which data plane and control plane both reside on the same ICN network layer, we consider an architecture where the control message is handled by the centralized server while data is handled by ICN network layer.  Following the naming process mentioned above, the LSG has the ICN name for the local resource which is available for publishing on IoT server.  IoT server maintains the subscription membership, and receives subscription requests from subscribers. Since the subscribers has non knowledge about the number of resource providers and their identities  in a dynamic scenario,  IoT server has to take responsibility of grouping and assigning group name for the resource. The generic message flow for publish/subscribe function is shown in Figure~\ref{fig:pubsub}, and we will illustrate the detail for NDN and MF.
+
+Compared with the Rendezvous mode in which data plane and control plane both reside on the same ICN network layer, we consider an architecture where the control message is handled by the centralized server while data is handled by ICN network layer.  Following the naming process mentioned above, the LSG has the ICN name for the local resource which is available for publishing on IoT server.  IoT server maintains the subscription membership, and receives subscription requests from subscribers. Since the subscribers has non knowledge about the number of resource providers and their identities  in a dynamic scenario,  IoT server has to take responsibility of grouping and assigning group name for the resource. The generic message flow for publish/subscribe function is shown in Figure~\ref{fig:pubsub}, and we will illustrate the detail for NDN and MF.
 In NDN, the grouping resource is intuitive: all resources have the same schematic prefix will be grouped together, and the prefix can be used to identify the service. The traditional NDN supports using a common partial name to retrieve multiple resources via Selector, but M. Amadeo et al. ~\cite{amadeo2014multi} provides a more efficient solution to improve this mechanism by introducing long-life multi-source Interest in PIT. MF takes advantage of  $Group$-$GUID$ to identify a service provided by multiple resources. This $Group$-$GUID$ will be distributed to the subscriber as well as the publisher. In an example of NDN,  it uses the common prefix$/home/monitoring/$ to identify a group of resource that provides multiple monitoring services such as $/home/monitoring/temperature$ and $/home/monitoring/light$. The subscriber retrieves the prefix from the IoT server, and sends Interest toward the resource. In a MF example, $GUID$-$x$ identifies the ``home monitoring'' service that combines with ``light status'' and ``temperature''. The resource producers, i.e. the host of ``temperature'' and the host of ``light status'' are notified that their services belong to $GUID$-$x$, then listen on $GUID$-$x$. The subscriber sends the request containing  $GUID$-$x$ through multicasting which ultimately reaches the producers at last common node. Once receiving the request, the resource producer unicasts the data to the subscriber. In addition, if multiple resource consumers subscribe to the same resource, the idea of $Group$-$GUID$ can be reused here to group the consumers to further save bandwidth using multicast.
 
