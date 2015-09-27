@@ -34,7 +34,8 @@ Current approaches towards a unified IoT platform are mostly based upon Internet
 %, lending itself to supporting the unified IoT platform.
 In this paper, we propose a unified IoT middleware, referred to as \emph{ICN-IoT} middleware, which can support several specific ICN architectures. As shown in Figure~\ref{fig:mid_arch}, the ICN-IoT middleware mainly consists of the following modules: publish/subscribe management, device/service discovery, context processing, and naming service. Among these modules, the publish/subscribe management is a centralized service while others are implemented in a distributed manner (discussed in Section~\ref{sec:physical}). Finally, the security component is implemented across all services.
 
-It is worth noting that functions in the proposed middleware are required to comply with the IoT deployment requirements and protocol agnostic, and therefore the instantiation of the ICN-IoT middleware may differ depending on the underlying ICN protocol. To be specific, this paper discusses the IoT functions with respect to the Named-Data Networking and  MobilityFirst.
+It is worth noting that functions in the proposed middleware are required to comply with the IoT deployment requirements and protocol agnostic, and therefore the instantiation of the ICN-IoT middleware may differ depending on the underlying ICN protocol. Therefore, this paper discusses the IoT functions with respect to the Named-Data Networking and  MobilityFirst.
+\vspace{-1mm}
 \begin{figure}
 \centering
 \includegraphics[width=\columnwidth]{figure/middleware_architecture.png}
@@ -52,15 +53,14 @@ NDN decouples the content from its original location without location binding.
 %NDN eliminates the notion of source and destination as it is in IP network, and handle routing only for Interest Packet.
 
 \subsection{MobilityFirst (MF)}\label{sec:intro_mf}
-MF~\cite{raychaudhuri2012mobilityfirst} utilizes GUID to name every network object, while separating this GUID from its actual network address. The separation of identifier(GUID) and its locator(network address)  allows MF to support dynamic address binding, multiple addressing binding and late binding. As shown as Figure ~\ref{fig:mf_arch}, MF core network architecture includes the following network components.
+MF~\cite{raychaudhuri2012mobilityfirst} utilizes GUID to name every network object, while separating this GUID from its actual network address. The separation of identifier and its locator allows MF to support dynamic address binding, multiple addressing binding and late binding. As shown as Figure ~\ref{fig:mf_arch}, MF core network architecture includes the following network components.
 
 \vspace{1mm}\noindent{\bf Global Name Resolution Service(GNRS)}: GNRS is a centralized service that maintains mappings between GUID and network address. MF routers create the entries by performing an $Insert$ for the GUIDs of attached network devices and the associated network address, and query GNRS for a translation from GUID to the latest binding network address. Recent work shows that this translation performance is much better (50-100 ms delay) than DNS resolution~\cite{vu2012dmap}.
 
 \vspace{1mm}\noindent{\bf Hybrid GUID/NA address routing}: Each MF router can make routing decision based on NA or GUID in the header of data packet, since routing decision are made by a hop-by-hop manner~\cite{nelson2011gstar}.
 
-\vspace{1mm}\noindent{\bf Delay-Tolerant Network(DTN)}: Each MF router is able to cache data packets in its storage.
-%The storage in each MF router provides the capability of caching the data packet.
-By doing this,  data can be stored or forwarded depending on different routing policies, such as quality of the link which is  useful over wireless interface.
+\vspace{1mm}\noindent{\bf Delay-Tolerant Network(DTN)}: Each MF router is able to cache data packets in its storage.As such,  data can be stored or forwarded depending on different routing policies, such as quality of the link which is  useful over wireless interface.
+\vspace{-1mm}
 \begin{figure}
 \centering
 \includegraphics[width=\columnwidth]{figure/mf_arch.eps}
@@ -69,6 +69,7 @@ By doing this,  data can be stored or forwarded depending on different routing p
 %\subsection{MF Multicast}\label{sec:multi}
 
 \vspace{1mm}\noindent{\bf MF multicast}: MF multicast is based on the idea of group GUID that gathers multiple network objects into one entity. Group GUID  to object GUID mapping is a one-to-many mapping that being maintained at GNRS server. Network object can claim to join the multicast group, and either edge router or a centralized management service will perform insertion of the object GUID to group GUID mapping to into GNRS server. When the first router queries GNRS server for a group GUID mapping, GNRS server returns a list of member GUIDs. The router assembles these GUIDs into the header and performs "Longest Common Path(LCP)" algorithm to determine the next hop address.Shown as Figure~\ref{fig:multicast}, routers look up the routing table for these GUIDs, and check if there are multiple next hops. When the number of the results is more than one, the router reassembles the header and forwards the copied packet to corresponding interfaces. If the number of multicast group members becomes significant, another approach can be adopted to resolve this issue--instead of assembling all GUIDs into the header after one query, each router on the path queries GNRS server for the group members and performs LCP to decide next hop.
+\vspace{-1mm}
 \begin{figure}
 \centering
 \includegraphics[width=\columnwidth]{figure/multicast.png}
