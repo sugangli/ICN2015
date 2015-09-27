@@ -6,27 +6,28 @@ In contrast to centralized or overlay-based implementation in the legacy IP-base
 \begin{figure}
 \includegraphics[width=\columnwidth]{figure/physical_comp.png}
 \caption{\label{fig:phy}System Architecture of ICN-IoT middleware}
-\end{figure}
 \vspace{-1mm}
+\end{figure}
+
 \subsection{System Architecture}\label{sec:physical}
 
 The proposed architecture has the following four main system components:
-\begin{itemize}
+%\begin{itemize}
 %\vspace{-2pt}
-\item{\em Embedded Device}, which enables seamless ICN protocol in resource-constraint network. An ICN embedded device supports at least one of following communication mode: transmitting and routing over the data to the Aggregator, or responding the request based on name or ID.
-\item{\em Aggregator}, which interconnects various IoT services and content in a local network. An Aggregator usually plays two roles: one is to act as the gateway to bridge the communication between resource-constrained wireless sensors and the rest of the nodes in the local network,  and the other one is to integrate sensing/actuating services in the local network.
+\noindent{\em Embedded Device}, which enables seamless ICN protocol in resource-constraint network. An ICN embedded device supports at least one of following communication mode: transmitting and routing over the data to the Aggregator, or responding the request based on name or ID.
+\noindent{\em Aggregator}, which interconnects various IoT services and content in a local network. An Aggregator usually plays two roles: one is to act as the gateway to bridge the communication between resource-constrained wireless sensors and the rest of the nodes in the local network,  and the other one is to integrate sensing/actuating services in the local network.
 
 %for resource-constraint wireless sensors, or it can be a device that integrates sensing/actuating service.
 
 %\vspace{-2pt}
-\item{\em Local Service Gateway (LSG)}, which connects the local IoT system to the rest of the global IoT system, and handles local name assignment and enforces  data access policies for local IoT devices. In addition, it can run context processing services to publish only the contextual information (instead of raw data) to the IoT server.
+\noindent{\em Local Service Gateway (LSG)}, which connects the local IoT system to the rest of the global IoT system, and handles local name assignment and enforces  data access policies for local IoT devices. In addition, it can run context processing services to publish only the contextual information (instead of raw data) to the IoT server.
 %It connects local IoT system to the outside world. It handles local name assignment and sensor data access policy enforcement. Furthermore, context data processing service can be implemented within this entity to publish only the information abstraction to IoT server.
 
 %\vspace{-2pt}
-\item{\em IoT Server}, which is a centralized server that maintains subscription memberships and provides the lookup service for subscribers. Unlike legacy IoT servers that are involved in the data path from publishers to subscribers -- raising the concern of its interfaces being a bottleneck -- the IoT server in our architecture is only involved in the control path where publishers and subscribers exchange their names and certificates.
+\noindent{\em IoT Server}, which is a centralized server that maintains subscription memberships and provides the lookup service for subscribers. Unlike legacy IoT servers that are involved in the data path from publishers to subscribers -- raising the concern of its interfaces being a bottleneck -- the IoT server in our architecture is only involved in the control path where publishers and subscribers exchange their names and certificates.
 
 %Legacy IoT server also involves in the data path from publisher to subscriber, where the bandwidth of its interfaces could be a bottleneck. In contrast, IoT server in our architecture only involves in control path in which publishers and subscribers exchange their names and certificates.
-\end{itemize}
+%\end{itemize}
 
 In the following subsections, we will discuss the functionality for each system component (as shown in Figure~\ref{fig:phy}) and present detailed protocol design considering NDN and MF.
 
@@ -213,7 +214,7 @@ device-level and network-level contextual information.
 \subsection{Device/App Naming service}\label{sec:naming}
 The objective of the naming service is to assure that either device
 or service itself is authenticated, attempting to prevent sybil (or
-spoofing) attack~\cite{sybil} and that the assigned name closely binds to the
+spoofing) attack and that the assigned name closely binds to the
 device (or service).  Naming service is specific to MobilityFirst,
 and it is hard to achieve in the context of NDN.  Naming service
 assigns and authenticates sensor and device names.  An effective

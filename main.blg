@@ -17,45 +17,45 @@ Warning--empty journal in harney1997group
 Warning--empty year in vu2012dmap
 
 Done.
-You've used 14 entries,
+You've used 12 entries,
             4483 wiz_defined-function locations,
-            963 strings with 11238 characters,
-and the built_in function-call counts, 12788 in all, are:
-= -- 1089
-> -- 454
-< -- 74
-+ -- 228
-- -- 122
-* -- 680
-:= -- 1890
-add.period$ -- 33
-call.type$ -- 14
-change.case$ -- 102
-chr.to.int$ -- 183
-cite$ -- 17
-duplicate$ -- 797
-empty$ -- 948
-format.name$ -- 136
-if$ -- 2846
+            950 strings with 10751 characters,
+and the built_in function-call counts, 10911 in all, are:
+= -- 923
+> -- 401
+< -- 59
++ -- 200
+- -- 110
+* -- 588
+:= -- 1618
+add.period$ -- 29
+call.type$ -- 12
+change.case$ -- 90
+chr.to.int$ -- 144
+cite$ -- 15
+duplicate$ -- 680
+empty$ -- 807
+format.name$ -- 122
+if$ -- 2419
 int.to.chr$ -- 0
-int.to.str$ -- 14
-missing$ -- 146
-newline$ -- 65
-num.names$ -- 28
-pop$ -- 444
+int.to.str$ -- 12
+missing$ -- 128
+newline$ -- 59
+num.names$ -- 24
+pop$ -- 392
 preamble$ -- 1
-purify$ -- 88
+purify$ -- 78
 quote$ -- 2
-skip$ -- 887
+skip$ -- 748
 stack$ -- 0
-substring$ -- 512
-swap$ -- 587
-text.length$ -- 13
+substring$ -- 409
+swap$ -- 496
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 154
+type$ -- 132
 warning$ -- 3
-while$ -- 64
-width$ -- 16
-write$ -- 145
+while$ -- 52
+width$ -- 14
+write$ -- 127
 (There were 3 warnings)
