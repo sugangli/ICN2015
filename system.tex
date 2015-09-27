@@ -210,15 +210,65 @@ device-level and network-level contextual information.
 
 
 \subsection{Device/App Naming service}\label{sec:naming}
-Naming service is an important function especially for ICN-IoT due to its naming feature. Basically, naming service is responsible for assigning ICN names to the devices and services when the devices are connected to the network or the Apps are deployed in the network environment, and providing name lookup/resolution if necessary. In addition, it is essentailly important to secure the naming service because unprotected (or insecure) naming service might open the door to potential attacks, such as sybil (or spoofing) attack \cite{sybil} with forged names.
+The objective of the naming service is to assure that either device
+or service itself is authenticated, attempting to prevent sybil (or
+spoofing) attack~\cite{sybil} and that the assigned name closely binds to the
+device (or service).  Naming service is specific to MobilityFirst,
+and it is hard to achieve in the context of NDN.  Naming service
+assigns and authenticates sensor and device names.  An effective
+naming service should be secure, persistent, and able to support a
+large number of application agnostic names.
 
-In what follows, let us consider the approach of building secure naming service in ICN-IoT. Suppose that the device (i.e., sensor) can be either programmable so that before deployment the owner can pre-load some identity information (such as secure ID, a pair of public/private key and a certificate) , or has some manufacture ID and a pair of public/private key (which is certified by the manufacturer). That is, the device is associated with some information including device identity, public/private keys ($PK_{device}, SK_{device}$) and a certificate either from the owner or the manufacturer that certifies the device identity and public/private keys. For the ICN-IoT middleware on top of NDN, when discovering a device, the aggregator will first verify the device identity (e.g., the device can generate a signature with the private key $SK_{device}$ and present the signature and the certificate to the aggregator so that the aggregator can verify it), and then assign an ICN name to the device as follows: the aggregator will issue a request to LSG together with its device identity and $PK_{device}$, so that LSG can assign an ICN name and generate a certificate (certifying the binding of ICN name, $PK_{device}$). To this end, the ICN name and the certificate will be sent back to the aggregator and will be stored locally if the device is resource-restricted. Otherwise, the ICN name and the certificate will be passed to the device. We note that through this process, ICN name is tightly binding with the device so that sybil attack cannot work. For the MF-IoT, assigning a network name (GUID) for a device is rather straightforward: after verifying the device identity, the Aggregator
-inserts the public key $PK_{device}$ and device information to the upper layer component to verify if there is a conflict in the corresponding scope. Specifically, LSG is in charge of local scope and IoT server guarantees the global uniqueness. Finally, the unique public key is used a GUID for the new device. Analogously, assigning ICN names to the Apps can be done in a similar way.
+Traditional IoT systems use IP addresses as names, which are insecure
+and non-persistant.  IP addresses also have relatively poor
+scalability, due to its fixed structure.  Instead, ICN separates
+names from locators, and assigns unique and persistent names to each
+sensor/device, which satisfies the above requirements.
 
-In the case where devices are only associated with the secure manufacture ID while without being pre-loaded public/private keys and the certificates, it is critical to assure that devices are authenticated by using other trust model. For example the system can take advantage of  the web-of-trust model or the contextually  semantic inforamtion so that the devices manufactured by the same vendor can authenticate each other. Moreover, in order to comply with the capability of resource-restricted devices, light-weight cryptographic primitive (such as symmetric cryptography) may be used instead of public key cryptography.
+In what follows, we discuss an approach for secure naming service in
+ICN-IoT.  We first consider the case where the embedded system is
+programmable so that before deployment, the owner can preload
+identity information (such as secure ID, a pair of public/private key
+and a certificate) , or has some manufacture ID and a pair of public
+private key (which is certified by the manufacturer).  That is, the
+device is associated with information including device identity,
+public/private keys ($PK_{device}$, $SK_{device}$) and a certificate
+either from the owner or the manufacturer which certifies the device
+identity and public/private keys.  When such a device is discovered,
+the aggregator will first verify the device identity (e.g., the
+device can generate a signature with the private key $SK_{device}$ and
+present the signature and the certificate to the aggregator so that
+the aggregator can verify it), and then assign a name to the device
+as follows: the aggregator will issue a request to LSG together with
+its device identity and $PK_{device}$, so that LSG can assign an NDN
+name and generate a certificate (certifying the binding of NDN name,
+$PK_{device}$).  To this end, the ICN name and the certificate will be
+sent back to the aggregator and will be stored locally if the device
+is resource-restricted.  Otherwise, the ICN name and the certificate
+will be passed to the device.
 
-%\subsection{Secured Device Naming Service}
-%A key step towards realizing a unified IoT platform is the ability to assign names that are unique within the scope and lifetime of each device, data items generated by these devices, or a group of devices towards a common objective. Naming service is usually triggered by device discovery. For NDN architecture, automatic naming scheme is following the hierarchical manor with minimum assumption -- device is always named after its attached point's name, and every physical component in our ICN-IoT middleware should have at least one name. Figure~\ref{} illustrates how a new device can be named using ICN-IoT middleware on top of NDN architecture. A sensor is being discovered by a nearby Aggregator. This Aggregator generate a key pair issues a request to the LSG with its manufacture ID and public key. On receiving of the request, the LSG generates a certificate and an ICN name for the new sensor, then send back to the Aggregator. Last, the Aggregator forward the information to the sensor or store it if the sensor has limited resource. In MF, generating a GUID for a new sensor is rather straightforward: the nearby Aggregator generates a key pair for the sensor, and inserts the public key and device information to the upper layer component to verify if there is a conflict in the corresponding scope. Specifically, LSG is in charge of local scope and IoT server guarantees the global uniqueness.Finally, the unique public key is used a GUID for the new device.
+For the MF-IoT, assigning a GUID for a device is rather
+straightforward: after verifying the device identity, the Aggregator
+inserts the public key $PK_{device}$ and device information to the
+upper layer component to verify if there is a conflict in the
+corresponding scope.  Specifically, LSG is in charge of local scope
+and IoT server guarantees the global uniqueness.  Finally, the unique
+public key is used a GUID for the new device.  Analogously, service
+discovery can be secured in a similar way.
+
+In the case where devices are only associated with the secure
+manufacture ID while without being pre-loaded public/private keys and
+the certificate, it is critical to assure that devices are
+authenticated by using other trust model.  For example the system can
+take advantage of the web-of-trust model or the contextually semantic
+information so that the devices manufactured by the same vendor can
+authenticate each other.  Moreover, in order to comply with the
+capability of resource-restricted devices, light-weight cryptographic
+primitive (such as symmetric cryptography) may be used instead of
+public key cryptography.
+
+Finally, we note that the same naming mechanism can be used to name
+higher-level IoT devices such as aggregators and LSGs.
 
 
 \subsection{Publish/Subscribe Management}
